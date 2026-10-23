@@ -1,0 +1,275 @@
+{
+  "auditedAt": "2026-10-23T01:31:12.3144718Z",
+  "scope": "Read-only source/report audit; no build, tests, packaging or real user database access performed by this audit",
+  "gitDirectoryPresent": false,
+  "localGuides": [
+    {
+      "path": "AGENTS.md",
+      "exists": false
+    },
+    {
+      "path": ".agents/skills",
+      "exists": false
+    },
+    {
+      "path": ".codex",
+      "exists": false
+    },
+    {
+      "path": ".claude/skills",
+      "exists": false
+    }
+  ],
+  "historicalVerification": {
+    "finishedAt": "2026-10-02T07:54:25.697Z",
+    "commands": [
+      {
+        "command": "pnpm lint",
+        "exitCode": 0,
+        "durationMs": 2059
+      },
+      {
+        "command": "pnpm typecheck",
+        "exitCode": 0,
+        "durationMs": 3954
+      },
+      {
+        "command": "pnpm test",
+        "exitCode": 0,
+        "durationMs": 4446
+      },
+      {
+        "command": "pnpm build",
+        "exitCode": 0,
+        "durationMs": 2098
+      },
+      {
+        "command": "pnpm test:e2e",
+        "exitCode": 0,
+        "durationMs": 20365
+      }
+    ],
+    "reportedUnitTests": 105,
+    "reportedExtensionE2ETests": 6,
+    "classification": "Historical retained evidence, not a current rerun"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "6109b446f6107fe1177af94444346167bd4d289d4a67668c2d6d6a128a8e18af",
+      "bytes": 4607
+    },
+    {
+      "path": "IMPLEMENTATION.md",
+      "sha256": "9b2a22776c2b996ca1f8092b539bc41b7b224e3c08b5ddf1e897f3665a6cccf7",
+      "bytes": 5998
+    },
+    {
+      "path": "docs/PRODUCT.md",
+      "sha256": "9bb0011642768f68b1dd75ecd121bdbf48d5a1129d71a785ec63ed0c5100cc7a",
+      "bytes": 2502
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "sha256": "6a631ad4a2e983985bd336f4e369e1202ee8f8816319f8cf5a8464420057c62f",
+      "bytes": 6072
+    },
+    {
+      "path": "docs/PRIVACY.md",
+      "sha256": "627db9528c91e291febf835ab06abcd57b1463f2e7ce3ae9460bdca7f80aaccf",
+      "bytes": 5645
+    },
+    {
+      "path": "docs/HANDOFF.md",
+      "sha256": "f188fa119734093dd687ea093f05abcedda1f9d8e4d7a5f205b65581f35327b6",
+      "bytes": 4041
+    },
+    {
+      "path": "docs/TEST_REPORT.md",
+      "sha256": "1b684dd0039a7425b6a18e9f354cadc122ac0c16fc36809c91575f81489b88e3",
+      "bytes": 10906
+    },
+    {
+      "path": "package.json",
+      "sha256": "718c0018f6875346f79561ed3a157c31a0bc3634c26a358a13a1606f81a76273",
+      "bytes": 1771
+    },
+    {
+      "path": "wxt.config.ts",
+      "sha256": "8db12ef42607aa83634a9ef6e69e3a42bff21fedf13dfc31dd1b9bdb08044c06",
+      "bytes": 1290
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "710806bb811ddbd335381c1ea8177810eafac2cd899e751c862ae1d19ee38e5a",
+      "bytes": 451
+    },
+    {
+      "path": "src/domain/types.ts",
+      "sha256": "c416db2996607e449d39855d8ece044c23d0299daa73b603d9ebbf34dee659e1",
+      "bytes": 1846
+    },
+    {
+      "path": "src/domain/schemas.ts",
+      "sha256": "0d3c05fea4fd285d6a835c0a8c0ddf300218613276029b9bb11eaf6190c00975",
+      "bytes": 6005
+    },
+    {
+      "path": "src/storage/repository.ts",
+      "sha256": "c6cd844c5b3b59ec140c6a671b299c4ab4cfda75a5985c8ec429a52725c689fc",
+      "bytes": 21269
+    },
+    {
+      "path": "src/ui/App.tsx",
+      "sha256": "818e3db3e54d1a6963f6ab413920666e5c210c972a7c363c864c47b2e50a7219",
+      "bytes": 22545
+    },
+    {
+      "path": "src/ui/TaskView.tsx",
+      "sha256": "217b0b679fa010152eed3a5dd45d638b3d6233f2222999d268a130ca9dbabda0",
+      "bytes": 17825
+    },
+    {
+      "path": "src/ui/useTaskDraft.ts",
+      "sha256": "eb245d3b8963e84ba555affaa6448cc8a4ac1ce54abfc99c39067b12e3a5881f",
+      "bytes": 3783
+    },
+    {
+      "path": "src/ui/Parking.tsx",
+      "sha256": "fc9640e0b04fcbcc1d71c0fe922e622ce2b4730ffbfc9e4be030c29ca8d3f69b",
+      "bytes": 5290
+    },
+    {
+      "path": "src/ui/i18n.tsx",
+      "sha256": "05651cb428515c429d9df9de15776420708e42e713f1d7ca904bcd253510c506",
+      "bytes": 813
+    },
+    {
+      "path": "src/ui/primitives.tsx",
+      "sha256": "b27255f99fd0017b3c063887e649bfa96877ab12ddd575051aec3b22db02a488",
+      "bytes": 3131
+    },
+    {
+      "path": "src/ui/styles.css",
+      "sha256": "2f08a1ecb55629bc154d6c534caa1d0f709c0afe2eef282c73acfb40c43bca89",
+      "bytes": 28538
+    },
+    {
+      "path": "src/ui/SettingsView.tsx",
+      "sha256": "9f45f4193b413854ffcfb48657c1eea110a764666d554121328798b49b08516d",
+      "bytes": 20044
+    },
+    {
+      "path": "src/browser/capture.ts",
+      "sha256": "acde1158c21208faf8d3c0dcc2bc22671c9ada7d02dfab09d25befc54b0c9bc7",
+      "bytes": 4371
+    },
+    {
+      "path": "src/browser/adapter.ts",
+      "sha256": "792fd7f0596583b83c22983fec27ed30369283cc15996a2e7c6291bf165aa67c",
+      "bytes": 3777
+    },
+    {
+      "path": "src/browser/background.ts",
+      "sha256": "45da0f344bebdb58f670f25b2dc14a21b2683d6d26bafa1548402828c01b503a",
+      "bytes": 7679
+    },
+    {
+      "path": "src/browser/dataClear.ts",
+      "sha256": "13c3f80339df394a09ef5fed6c94b753c6e27c74d819b23de6f84885d6f641e0",
+      "bytes": 842
+    },
+    {
+      "path": "src/browser/settings.ts",
+      "sha256": "345f87b083479ea2d8c7e49142e5ba1dfb4effd500aa5cba35a00438c4993ef8",
+      "bytes": 2656
+    },
+    {
+      "path": "src/ai/providers.ts",
+      "sha256": "9a1d29621081ba371ff6324518df07723dd3a7d0a1efea75b98b36e99544820d",
+      "bytes": 15318
+    },
+    {
+      "path": "e2e/extension.spec.ts",
+      "sha256": "9d6173d5703bc7955bfdb8ecbcf305e615113d140b780a265e3e898419822f26",
+      "bytes": 29769
+    },
+    {
+      "path": "e2e/helpers.ts",
+      "sha256": "a1447ba151b2c81d6ebb845a57adc0357f11d414d7a2b7bd0804f5f5dda5846e",
+      "bytes": 9086
+    },
+    {
+      "path": "artifacts/verification.json",
+      "sha256": "59818bc8ba69b9a47cc2a0ac86a35d5482f29bc1d1b3bbbdf8d28cd9dd080ff1",
+      "bytes": 2003
+    },
+    {
+      "path": "artifacts/package-verification.json",
+      "sha256": "dbdcb1f9bf3be64acdb4824788529e85413fca72e0ecb48ae64edcf35f950afd",
+      "bytes": 1770
+    },
+    {
+      "path": "artifacts/logs/test.log",
+      "sha256": "381a41f392aeb9119dd2d7caf16253d11e4cafbeaa697be63217f709892108f2",
+      "bytes": 210
+    },
+    {
+      "path": "artifacts/logs/test-e2e.log",
+      "sha256": "da8ce8cba35e1d00ee1e2c75c6304294c4b3ecb9fb5d37b314d45076c876b972",
+      "bytes": 958
+    },
+    {
+      "path": "artifacts/product-discovery/baseline.json",
+      "sha256": "1f4757c987e34d63a32f164a0b45851350bb3c1ea96a19fc747d4f2836275e78",
+      "bytes": 2779
+    },
+    {
+      "path": "artifacts/product-discovery/baseline-logs/test.log",
+      "sha256": "6aed85e08086cd3f254a4e8bec5ac18d2df81876771f383607d314f19d51ce97",
+      "bytes": 264
+    },
+    {
+      "path": "artifacts/product-discovery/baseline-logs/test-e2e.log",
+      "sha256": "3651942038ab696e225bf00f35c709d9c1d4a71a87471e4304b901f1392522fc",
+      "bytes": 959
+    }
+  ],
+  "currentBaselineRead": {
+    "finishedAt": "2026-10-23T01:34:05.396Z",
+    "executedBy": "Parent/root agent in isolated copied workspace; read by audit agent",
+    "results": [
+      {
+        "command": "pnpm lint",
+        "exitCode": 0,
+        "durationMs": 27377
+      },
+      {
+        "command": "pnpm typecheck",
+        "exitCode": 0,
+        "durationMs": 26455
+      },
+      {
+        "command": "pnpm test",
+        "exitCode": 0,
+        "durationMs": 39420
+      },
+      {
+        "command": "pnpm build",
+        "exitCode": 0,
+        "durationMs": 10239
+      },
+      {
+        "command": "pnpm test:e2e",
+        "exitCode": 0,
+        "durationMs": 26679
+      }
+    ],
+    "unitTestsFromNewLog": 105,
+    "extensionE2ETestsFromNewLog": 6,
+    "protectedFileCount": 79,
+    "changedProtectedPaths": [],
+    "productionOutputUntouched": true,
+    "productionZipUntouched": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "kind": "source-component-fixture",
+  "sourceCommit": "029a9089c7a7fc6933ddaaf63fa90284ca135347",
+  "ranAt": "2026-10-23T01:36:14.217Z",
+  "assertions": [
+    "Break picker renders 3 activity cards x 3 durations",
+    "Starting first 30s activity renders finite instructions and early completion / skip controls",
+    "With synthetic completed state, component returns to picker, not a saved work context"
+  ],
+  "pageErrors": [],
+  "limitations": [
+    "Original React UI/components/CSS/assets used with existing project React19 instead of upstream React18.",
+    "Runtime message replies are synthetic; no background engine, alarms, persistence, real window closure or original Plasmo packaging tested."
+  ],
+  "dashboardButtons": [
+    "Start",
+    "Pause",
+    "Stop",
+    "Break Library",
+    "30s",
+    "60s",
+    "90s",
+    "30s",
+    "60s",
+    "90s",
+    "30s",
+    "60s",
+    "90s",
+    "Settings",
+    "Save settings",
+    "Reset all data",
+    ""
+  ],
+  "dashboardHeight": 1407,
+  "requests": [
+    {
+      "type": "GET_STATE"
+    },
+    {
+      "type": "START_BREAK",
+      "payload": {
+        "breakType": "breathing",
+        "durationSeconds": 30,
+        "openOverlay": false
+      }
+    },
+    {
+      "type": "COMPLETE_BREAK"
+    }
+  ],
+  "pass": true
+}

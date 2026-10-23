@@ -1,0 +1,133 @@
+{
+  "reviewDate": "2026-10-22 America/Los_Angeles",
+  "retrievedThrough": "2026-10-23 01:41:55 UTC",
+  "method": "web tool; primary sources only; no human interviews; scopes per record",
+  "sources": [
+    {
+      "id": "E1",
+      "title": "ADHD in Adults: 4 Things to Know",
+      "url": "https://www.nimh.nih.gov/health/publications/adhd-what-you-need-to-know",
+      "type": "official-health-information",
+      "read": "official page",
+      "sections": [
+        "Symptoms and everyday functioning"
+      ],
+      "supports": "Difficulties and individual variation are legitimate design context, not product efficacy.",
+      "limits": "No BackToIt intervention tested."
+    },
+    {
+      "id": "E1b",
+      "title": "NIMH Expert Dr Mary Rooney Discusses Managing ADHD",
+      "url": "https://www.nimh.nih.gov/news/media/2020/nimh-expert-dr-mary-rooney-discusses-managing-adhd",
+      "type": "official-expert-information",
+      "read": "official page",
+      "supports": "Initiating and sustaining a task can differ across individuals.",
+      "limits": "Not evidence for any optimal UI or timer."
+    },
+    {
+      "id": "E2",
+      "title": "Give me a break! A systematic review and meta-analysis on the efficacy of micro-breaks for increasing well-being and performance",
+      "authors": "Albulescu et al.",
+      "year": 2022,
+      "pmid": "36044424",
+      "doi": "10.1371/journal.pone.0272460",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0272460",
+      "read": "publisher full text",
+      "sections": [
+        "Abstract",
+        "Selection criteria",
+        "Results",
+        "Limitations"
+      ],
+      "design": "19 records; 22 independent samples; N=2335; healthy employees/students; breaks up to 10 min.",
+      "supports": "Small vigor and fatigue benefits; overall performance effect not significant.",
+      "limits": "Not ADHD specific; no universal optimal duration; activity subtypes inadequately resolved."
+    },
+    {
+      "id": "E3",
+      "title": "The Effects of Gamification on Computerized Cognitive Training: Systematic Review and Meta-Analysis",
+      "authors": "Vermeir et al.",
+      "year": 2020,
+      "doi": "10.2196/18644",
+      "url": "https://games.jmir.org/2020/3/e18644",
+      "read": "publisher full text",
+      "sections": [
+        "Abstract",
+        "Participants",
+        "Meta-analysis",
+        "Limitations"
+      ],
+      "design": "49 studies reviewed; 9 RCTs meta-analyzed.",
+      "supports": "Motivation/engagement and demand both increase; no corresponding training-domain benefit established.",
+      "limits": "Cognitive training is not microrest; mixed populations and limited studies."
+    },
+    {
+      "id": "E4",
+      "title": "Tasks Interrupted: How Anticipating Time Pressure on Resumption of an Interrupted Task Causes Attention Residue and Low Performance on Interrupting Tasks and How a Ready-to-Resume Plan Mitigates the Effects",
+      "authors": "Leroy and Glomb",
+      "year": 2018,
+      "doi": "10.1287/orsc.2017.1184",
+      "url": "https://pubsonline.informs.org/doi/10.1287/orsc.2017.1184",
+      "read": "publisher abstract only",
+      "design": "Four studies per abstract.",
+      "supports": "Planning resumption may mitigate attention residue in the studied situation.",
+      "limits": "Outcome includes interrupting task performance; not an ADHD extension trial."
+    },
+    {
+      "id": "E5",
+      "title": "Directing smartphone use through the self-nudge app one sec",
+      "authors": "Grüning, Riedel, Lorenz-Spreen",
+      "year": 2023,
+      "pmid": "36795756",
+      "doi": "10.1073/pnas.2213114120",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9974409/",
+      "read": "PMC full-text extract returned by web search; direct open returned browser check, not bypassed.",
+      "sections": [
+        "Field experiment",
+        "Controlled Experiment",
+        "Materials and Methods",
+        "Competing interests"
+      ],
+      "design": "N=280 six-week continuing field users; N=500 randomized online experiment.",
+      "supports": "A simple option to dismiss consumption deserves comparison with combined interventions.",
+      "limits": "Field selection/attrition, online video setting, no ADHD-specific efficacy; one author originated app."
+    },
+    {
+      "id": "E6",
+      "title": "I Just Want to Hack Myself to Not Get Distracted: Evaluating Design Interventions for Self-Control on Facebook",
+      "authors": "Lyngs et al.",
+      "year": 2020,
+      "doi": "10.1145/3313831.3376672",
+      "url": "https://arxiv.org/abs/2001.04180v2",
+      "read": "author manuscript abstract",
+      "design": "58 students; three interventions over six weeks.",
+      "supports": "Goal reminders and removed feed may help control, with annoyance/FOMO tradeoffs.",
+      "limits": "Not validation of dh-focus current implementation; not ADHD specific."
+    },
+    {
+      "id": "E7",
+      "title": "Not Just Me and My To-Do List: Understanding Challenges of Task Management for Adults with ADHD and the Need for AI-Augmented Social Scaffolds",
+      "authors": "Chen, Meng, Nie",
+      "year": 2026,
+      "doi": "10.48550/arXiv.2603.17258",
+      "url": "https://arxiv.org/abs/2603.17258v2",
+      "read": "author manuscript abstract and version metadata",
+      "design": "22 interviews plus 20 different participants reviewing 13 speculative concepts.",
+      "supports": "Task management may require emotional and social scaffolding.",
+      "limits": "ADHD-identifying participants; qualitative concepts not outcome trial; author-reported CSCW acceptance, publication not independently verified."
+    },
+    {
+      "id": "E8",
+      "title": "Effects of interventions to reduce the negative consequences of interruptions on task performance: A systematic review, meta-analysis, and narrative synthesis of laboratory studies",
+      "authors": "Guo, Chen, Xie, Or",
+      "year": 2021,
+      "pmid": "34273814",
+      "doi": "10.1016/j.apergo.2021.103506",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34273814/",
+      "read": "indexed PubMed abstract",
+      "design": "33 laboratory experiments; 49 interventions.",
+      "supports": "Interruption interventions vary by task and intervention.",
+      "limits": "Laboratory and abstract-only evidence, not field or ADHD-specific product validation."
+    }
+  ]
+}

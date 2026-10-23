@@ -1,0 +1,40 @@
+{
+  "reviewedOn": "2026-10-22",
+  "timeZone": "America/Los_Angeles",
+  "installedThirdPartySkills": false,
+  "executedUpstreamInstallScripts": false,
+  "skills": [
+    {
+      "key": "pm-authoring",
+      "state": "read and applied",
+      "target": "docs/product/05_V02_PRD.md",
+      "license": "MIT",
+      "source": "https://github.com/SuperElectron/prd-template/blob/main/.claude/skills/prd-authoring/SKILL.md",
+      "blobSha": "6acae7d7a4c582b87e4803a747d8a4fffa788d99"
+    },
+    {
+      "key": "pm-review",
+      "state": "read and applied; initial and final independent reviews completed",
+      "target": "docs/product/12_DELIVERY_AND_VALIDATION.md",
+      "license": "MIT",
+      "source": "https://github.com/SuperElectron/prd-template/blob/main/.claude/skills/prd-review/SKILL.md",
+      "blobSha": "c02611bb3c95d5065a97f67fdafa945069a7d3b8"
+    },
+    {
+      "key": "pm-decisions",
+      "state": "read and applied",
+      "target": "docs/product/06_DECISIONS.md",
+      "license": "MIT",
+      "source": "https://github.com/SuperElectron/prd-template/blob/main/.claude/skills/decision-records/SKILL.md",
+      "blobSha": "d717ae4c795e0c5de58fb636316ff5612f8c6935"
+    },
+    {
+      "key": "pm-ost-candidate",
+      "state": "read and evaluated; not applied",
+      "target": null,
+      "license": "CC BY-NC-SA 4.0",
+      "source": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/opportunity-solution-tree/SKILL.md",
+      "blobSha": "2d281121ffa8930907322f30afbfaa57349a5364"
+    }
+  ]
+}

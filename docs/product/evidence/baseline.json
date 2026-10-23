@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-22",
+  "timeZone": "America/Los_Angeles",
+  "startedAt": "2026-10-23T01:31:55.178Z",
+  "finishedAt": "2026-10-23T01:34:05.396Z",
+  "node": "v24.14.1",
+  "workspace": "artifacts/product-discovery/baseline-workspace-lL2g2S",
+  "method": "Exact selected v0.1 sources copied to a new workspace; installed dependencies and official browser runtime shared read-only by directory junction. Generated files and browser profiles stay in that copy.",
+  "results": [
+    {
+      "command": "pnpm lint",
+      "exitCode": 0,
+      "durationMs": 27377
+    },
+    {
+      "command": "pnpm typecheck",
+      "exitCode": 0,
+      "durationMs": 26455
+    },
+    {
+      "command": "pnpm test",
+      "exitCode": 0,
+      "durationMs": 39420
+    },
+    {
+      "command": "pnpm build",
+      "exitCode": 0,
+      "durationMs": 10239
+    },
+    {
+      "command": "pnpm test:e2e",
+      "exitCode": 0,
+      "durationMs": 26679
+    }
+  ],
+  "protectedFileCount": 79,
+  "changedProtectedPaths": [],
+  "productionOutputUntouched": true,
+  "productionZipUntouched": true,
+  "copiedBuildSha256": {
+    ".output/chrome-mv3/app.html": "1c7be1574ed0fddd906ba7f3f2059806af4cfd0c3286b73e214676971b85be99",
+    ".output/chrome-mv3/assets/App-D8xY4H4d.css": "3720f446c700794031f526d411324e126bdb9790e6fdfd182df7db1e7ec221e7",
+    ".output/chrome-mv3/background.js": "6758b550d2026152bc38d3f7d5f9f977cc7a153a0af9b85a3923a35ecc38750d",
+    ".output/chrome-mv3/chunks/app-BGPh6_-K.js": "80509067ec855290dad53b3c0ff9f09f8e44b95bd0134ac9767c96616eaf32d5",
+    ".output/chrome-mv3/chunks/App-pXsH3DOs.js": "6cab4df9ddaa1e5d3e53607aeecb867b1f68ba2cccecae3a6ae3f184f3bc563e",
+    ".output/chrome-mv3/chunks/sidepanel-BPQliI2c.js": "010dbff3b44e5c218f26b18f071606ece17c22768b676cacb084f75e2e249f5e",
+    ".output/chrome-mv3/icon/128.png": "65051e62e17847f0dfbebb99e15269d696e29dfae31490c8ac375fd6dff9a591",
+    ".output/chrome-mv3/icon/16.png": "e167ba8f5c87c7845940c651526cae018077f8d3c70e27b1f3f03997360750fd",
+    ".output/chrome-mv3/icon/32.png": "65ed1b0e84f2dd0c249fc6084dc7b7ffb277576ba63e301e902eb17e4a476562",
+    ".output/chrome-mv3/icon/48.png": "03a383c0125aee1e79d16ee7611368543f442aef704b853a0ca0dc1e9999499a",
+    ".output/chrome-mv3/icon/mark.svg": "91d8cef27b9b4dc1c0710fa0bb6449749acaa2d86ddeb7aab4a5b7d83f58b2cd",
+    ".output/chrome-mv3/manifest.json": "1010757832f06e80067269aff053cfde8bbd34404606afe52b6f3e4106348f70",
+    ".output/chrome-mv3/sidepanel.html": "8edb5e95c9aa9e61afc1db2f40eaf7422043c7136d2267ab1d72ce26d5ee2b7a",
+    ".output/chrome-mv3/_locales/en/messages.json": "d8bfbed9732d431d0a10b183b4ba4491158365d1cd971dc540eedcf22ff9ffdb",
+    ".output/chrome-mv3/_locales/zh_CN/messages.json": "298349fde13a3b1c49da2dcd6c4d26a953bb0a0870ce7c29d324bf071d16d222"
+  }
+}

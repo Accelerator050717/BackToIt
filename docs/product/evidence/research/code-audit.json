@@ -1,0 +1,141 @@
+{
+  "reviewDate": "2026-10-22 America/Los_Angeles",
+  "method": "Connected GitHub read-only APIs; files pinned to retrieved default-branch head; runtime scope in separate logs.",
+  "repositories": [
+    {
+      "repo": "aminehabchi/NeuroFlow",
+      "readFiles": [
+        "README.md",
+        "LICENSE",
+        "manifest.json",
+        "popup.html",
+        "js/list.js",
+        "js/popup.js",
+        "css/light.css",
+        "css/dark.css"
+      ],
+      "facts": [
+        "MV3 manifest name O, brand NeuroFlow in README",
+        "Host-keyed localStorage todo_urls",
+        "No transactional/version conflict handling found in list.js",
+        "Original extension popup document run, not native toolbar"
+      ],
+      "notVerified": [
+        "ADHD/dopamine marketing",
+        "Cross-host interaction",
+        "Multi-window race reproduction"
+      ],
+      "commit": "b6043dd8b56f2a4a77ffbcf547fb7633ca6ebc68",
+      "sourceBase": "https://github.com/aminehabchi/NeuroFlow/blob/b6043dd8b56f2a4a77ffbcf547fb7633ca6ebc68/"
+    },
+    {
+      "repo": "cmarathe1/resettle-microbreak-extension",
+      "readFiles": [
+        "README.md",
+        "LICENSE",
+        "package.json",
+        "src/constants.ts",
+        "src/types.ts",
+        "src/engines/microbreak-engine.ts",
+        "src/engines/motivation-engine.ts",
+        "src/engines/reminder-engine.ts",
+        "src/engines/personalization-engine.ts",
+        "src/background-controller.ts",
+        "src/sidepanel.tsx",
+        "src/popup.tsx",
+        "src/tabs/break-overlay.tsx",
+        "src/hooks/use-extension-state.ts",
+        "src/hooks/use-resolved-theme.ts",
+        "src/ui/components.tsx",
+        "src/ui/error-boundary.tsx",
+        "src/ui/mode-toggle.tsx"
+      ],
+      "facts": [
+        "Finite 3 activities x 3 duration scripts",
+        "Recovery score derived from streak/completed count",
+        "Original source-component fixture run with synthetic runtime"
+      ],
+      "notVerified": [
+        "Original Plasmo package build",
+        "Real reminders/windows/storage",
+        "Comparative count-up benefits or physiological outcomes"
+      ],
+      "commit": "029a9089c7a7fc6933ddaaf63fa90284ca135347",
+      "sourceBase": "https://github.com/cmarathe1/resettle-microbreak-extension/blob/029a9089c7a7fc6933ddaaf63fa90284ca135347/"
+    },
+    {
+      "repo": "wolph/focus-lock",
+      "readFiles": [
+        "README.md",
+        "package.json",
+        "manifest.config.ts",
+        "docs/product-rules.md",
+        "src/popup/ReturnToWorkButton.tsx",
+        "src/content/overlay-work-target.ts",
+        "src/core/session-v2.ts"
+      ],
+      "facts": [
+        "UNLICENSED package and no LICENSE in tree",
+        "Explicit work destination button",
+        "Commit discloses unresolved hard-session recovery and peer sync deletion issues"
+      ],
+      "notVerified": [
+        "Installed runtime",
+        "Production stability",
+        "Independent reproduction of disclosed issues"
+      ],
+      "commit": "360b14605b9edcffc6c5f508d60697d7db554ec4",
+      "sourceBase": "https://github.com/wolph/focus-lock/blob/360b14605b9edcffc6c5f508d60697d7db554ec4/"
+    },
+    {
+      "repo": "digitalhabits/dh-focus",
+      "readFiles": [
+        "README.md",
+        "Shared (Extension)/Resources/manifest.json",
+        "Shared (Extension)/Resources/content.js",
+        "Shared (Extension)/Resources/selectors.js",
+        "Shared (Extension)/Resources/background.js",
+        "Shared (Extension)/Resources/popup.js"
+      ],
+      "facts": [
+        "No LICENSE/COPYING found in full tree; GitHub license=null",
+        "all_urls content scripts in shared manifest",
+        "Conditional usage ping after accepted EULA, excludes Firefox/development; opt-out check"
+      ],
+      "notVerified": [
+        "Store-specific generated manifests",
+        "Server retention",
+        "Current product efficacy"
+      ],
+      "commit": "3c80ec8b36daa3755a28d83839b040532f2a5050",
+      "sourceBase": "https://github.com/digitalhabits/dh-focus/blob/3c80ec8b36daa3755a28d83839b040532f2a5050/"
+    },
+    {
+      "repo": "tanay9098/JumpyBrain",
+      "readFiles": [
+        "README.md",
+        "LICENSE",
+        "chrome-extension/public/manifest.json",
+        "chrome-extension/src/components/WhatNext.jsx",
+        "backend/ml/priorityModel.js",
+        "backend/services/recommendationLog.js",
+        "backend/services/aiService.js",
+        "frontend/src/components/Mindfulness.jsx"
+      ],
+      "facts": [
+        "AGPL-3.0",
+        "Current ranker heuristic; README acknowledges paused training",
+        "Start records event rather than evidence of actual work",
+        "Server and OpenAI integration code exists"
+      ],
+      "notVerified": [
+        "OAuth",
+        "Hosted service behavior",
+        "Mobile platform permissions/functionality",
+        "Individual energy predictions"
+      ],
+      "commit": "6bf0e34992d6fb592bc4f70728ff614289912e99",
+      "sourceBase": "https://github.com/tanay9098/JumpyBrain/blob/6bf0e34992d6fb592bc4f70728ff614289912e99/"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "backtoit-detour-research-prototype",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Independent local research prototype; uses the parent workspace's locked dependencies.",
+  "scripts": {
+    "dev": "node scripts/tool.mjs dev",
+    "build": "node scripts/tool.mjs build",
+    "preview": "node scripts/tool.mjs preview",
+    "typecheck": "node scripts/tool.mjs typecheck",
+    "test": "node scripts/tool.mjs test",
+    "browser-test": "node scripts/tool.mjs browser-test"
+  }
+}

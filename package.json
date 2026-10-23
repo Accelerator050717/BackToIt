@@ -1,0 +1,60 @@
+{
+  "name": "backtoit",
+  "private": true,
+  "version": "0.1.0",
+  "description": "留住做到哪一步，下次回来直接接着做。",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "packageManager": "pnpm@11.19.0",
+  "scripts": {
+    "dev": "wxt",
+    "build": "wxt build",
+    "postinstall": "wxt prepare",
+    "typecheck": "wxt prepare && tsc --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "test:e2e:headed": "playwright test --headed",
+    "package": "pnpm build && node scripts/package.mjs",
+    "verify": "node scripts/verify.mjs",
+    "browsers:install": "playwright install chromium",
+    "test:entrypoints": "node scripts/diagnose-entrypoints.mjs",
+    "format": "prettier --write src entrypoints tests e2e scripts *.ts *.js *.json"
+  },
+  "dependencies": {
+    "dexie": "4.4.6",
+    "dexie-react-hooks": "4.4.0",
+    "lucide-react": "1.49.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@playwright/test": "1.63.0",
+    "@tailwindcss/vite": "4.3.3",
+    "@testing-library/jest-dom": "7.0.1",
+    "@testing-library/react": "16.3.3",
+    "@testing-library/user-event": "14.6.7",
+    "@types/chrome": "0.3.4",
+    "@types/node": "26.6.3",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@wxt-dev/module-react": "1.2.2",
+    "eslint": "10.11.0",
+    "eslint-plugin-react-hooks": "7.1.1",
+    "fake-indexeddb": "6.2.5",
+    "fflate": "0.8.3",
+    "globals": "17.13.0",
+    "jsdom": "30.1.1",
+    "prettier": "3.6.2",
+    "tailwindcss": "4.3.3",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.71.0",
+    "vitest": "5.0.3",
+    "wxt": "0.21.4"
+  }
+}

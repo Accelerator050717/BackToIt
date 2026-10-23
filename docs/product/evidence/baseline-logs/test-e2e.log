@@ -1,0 +1,14 @@
+$ playwright test
+
+Running 6 tests using 1 worker
+
+(node:43456) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 e2e\extension.spec.ts:16:1 › installed extension: capture, checkpoint, restart, resume, parking, backup and offline (10.0s)
+  ok 2 e2e\extension.spec.ts:265:1 › real permission revocation, restricted page and safe editable-selection rejection (2.2s)
+  ok 3 e2e\extension.spec.ts:319:1 › responsive extension pages, 200 percent zoom and keyboard dialog (2.4s)
+  ok 4 e2e\extension.spec.ts:365:1 › real native side panel saves the authorized current page (1.9s)
+  ok 5 e2e\extension.spec.ts:420:1 › installed data controls, sensitive URL review and model permission fallback (3.0s)
+  ok 6 e2e\extension.spec.ts:503:1 › cross-window deletion removes resource editors and all temporary capture content (2.6s)
+
+  6 passed (23.1s)

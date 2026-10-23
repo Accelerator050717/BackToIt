@@ -1,0 +1,378 @@
+{
+  "reviewedAt": "2026-10-23 02:11:50 UTC",
+  "reviewType": "Targeted independent re-review of F01–F06; preserves the initial review",
+  "reviewer": "Independent browser/architecture subagent; did not author the reviewed product documents",
+  "initialReview": "artifacts/product-discovery/prd-review.json",
+  "initialVerdict": "Needs Revision",
+  "scope": [
+    "docs/product/00_PRODUCT_VISION.md",
+    "docs/product/02_USER_RESEARCH.md",
+    "docs/product/04_OPPORTUNITY_MAP.md",
+    "docs/product/05_V02_PRD.md",
+    "docs/product/06_DECISIONS.md",
+    "docs/product/07_ROADMAP.md",
+    "docs/product/08_MEASUREMENT_AND_TEST.md",
+    "docs/product/09_RELEASE_GATES.md",
+    "docs/product/10_SKILLS_AND_WORKFLOW.md",
+    "docs/product/11_INTERACTION_SPEC.md"
+  ],
+  "skill": {
+    "source": "https://github.com/SuperElectron/prd-template/blob/8eeca0c61eed0e1fd22c65a7226562332a03bed7/.claude/skills/prd-review/SKILL.md",
+    "license": "MIT (verified by parent workflow)",
+    "gitBlobSha1": "c02611bb3c95d5065a97f67fdafa945069a7d3b8",
+    "blobMatchVerified": true,
+    "applied": true
+  },
+  "adaptations": [
+    "User-required numbered docs/product filenames override the skill's dated prds naming convention; no renaming requested.",
+    "Draft is accurate: no PR or release approval is being claimed. Ready for Review is a document-quality verdict, not Gate1/Gate2 approval.",
+    "No invented baseline is required. A clearly specified future baseline protocol is valid for this research plan, while current real-user evidence remains missing by design.",
+    "The user's requested full PRD is assessed with its linked appendices; no arbitrary two-page cutoff.",
+    "Findings are sent to parent for edits; this reviewer changes only its review artifacts and does not offer/perform unsolicited product or UI edits."
+  ],
+  "method": "Read the actual revised lines of 02/05/08/09; recheck the six original findings and their affected criteria; carry forward unaffected criteria from the initial full review. No core, prototype or production-output modifications or new execution tests performed by this reviewer. Final evidence refresh: re-read the formatted 05/08/09 core criteria and current isolation report; confirm unchanged metric and transaction semantics, then refresh input hashes. This is a targeted check, not a new full review of 12 or all documentation.",
+  "checklist": [
+    {
+      "id": "P1",
+      "group": "PRD",
+      "check": "问题可独立理解",
+      "status": "PASS",
+      "evidence": "05:9 / 00:9–17 clearly separate the friend's reported situation from the proposed opportunity.",
+      "reviewBasis": "Carried forward unchanged from initial independent review; original evidence references refer to that review snapshot."
+    },
+    {
+      "id": "P2",
+      "group": "PRD",
+      "check": "故事可转化为实现",
+      "status": "PASS",
+      "evidence": "05:15–18 maps four concrete jobs to F01–F18 and the interaction appendix.",
+      "reviewBasis": "Carried forward unchanged from initial independent review; original evidence references refer to that review snapshot."
+    },
+    {
+      "id": "P3",
+      "group": "PRD",
+      "check": "功能验收可判定",
+      "status": "PASS",
+      "evidence": "PASS after F05: 05:55–57 and 09:18 require same-transaction expectedRevision/status validation and activation, plus zero opened resources on conflict; this is a future Gate2 requirement, not existing code.",
+      "reviewBasis": "Targeted final recheck"
+    },
+    {
+      "id": "P4",
+      "group": "PRD",
+      "check": "指标含目标及观测窗口",
+      "status": "PASS",
+      "evidence": "PASS after F01–F03: 08:13/15/20/23/59 define D t0, inclusive N, descriptive versus all-N metrics, same-candidate thresholds and C/B-only duration protection.",
+      "reviewBasis": "Targeted final recheck"
+    },
+    {
+      "id": "P5",
+      "group": "PRD",
+      "check": "保护指标存在",
+      "status": "PASS",
+      "evidence": "08:23–26 retain overstay, re-entry, interference and refusal; 08:23 restricts the duration ratio to C/B.",
+      "reviewBasis": "Targeted final recheck"
+    },
+    {
+      "id": "P6",
+      "group": "PRD",
+      "check": "范围排除真实明确",
+      "status": "PASS",
+      "evidence": "05:69–73 excludes production integration, schemas, new permissions, phone monitoring, AI and content operations.",
+      "reviewBasis": "Carried forward unchanged from initial independent review; original evidence references refer to that review snapshot."
+    },
+    {
+      "id": "P7",
+      "group": "PRD",
+      "check": "风险及未知被保留",
+      "status": "PASS",
+      "evidence": "05:75 and 04:H1–H7 include non-adoption, burden, migration uncertainty, timing and bias.",
+      "reviewBasis": "Carried forward unchanged from initial independent review; original evidence references refer to that review snapshot."
+    },
+    {
+      "id": "P8",
+      "group": "PRD",
+      "check": "依赖被点名",
+      "status": "PASS",
+      "evidence": "05:73 and 09:11–24 name v0.1, local runtime, voluntary participants and future transaction/integration work.",
+      "reviewBasis": "Carried forward unchanged from initial independent review; original evidence references refer to that review snapshot."
+    },
+    {
+      "id": "P9",
+      "group": "PRD",
+      "check": "状态与阶段相符",
+      "status": "PASS",
+      "evidence": "05:3 says Draft; 09 says Gate1 not passed and Gate2 not started.",
+      "reviewBasis": "Carried forward unchanged from initial independent review; original evidence references refer to that review snapshot."
+    },
+    {
+      "id": "P10",
+      "group": "PRD",
+      "check": "路径遵守本任务约定",
+      "status": "PASS",
+      "evidence": "The user explicitly requires docs/product/05_V02_PRD.md and related fixed filenames; the skill convention is superseded.",
+      "reviewBasis": "Carried forward unchanged from initial independent review; original evidence references refer to that review snapshot."
+    },
+    {
+      "id": "P11",
+      "group": "PRD",
+      "check": "长度与拆分合理",
+      "status": "PASS",
+      "evidence": "The main PRD links evidence, measurement and detailed interaction appendices instead of repeating all research.",
+      "reviewBasis": "Carried forward unchanged from initial independent review; original evidence references refer to that review snapshot."
+    },
+    {
+      "id": "D1",
+      "group": "Decisions",
+      "check": "决策约束清楚",
+      "status": "PASS",
+      "evidence": "06:3–7 separates adopted prototype scope from proposed production scope and weak user evidence.",
+      "reviewBasis": "Carried forward unchanged from initial independent review; original evidence references refer to that review snapshot."
+    },
+    {
+      "id": "D2",
+      "group": "Decisions",
+      "check": "选择表述确定",
+      "status": "PASS",
+      "evidence": "06:D01–D10 states concrete adopted scope choices, each in a concise row.",
+      "reviewBasis": "Carried forward unchanged from initial independent review; original evidence references refer to that review snapshot."
+    },
+    {
+      "id": "D3",
+      "group": "Decisions",
+      "check": "存在真实替代",
+      "status": "PASS",
+      "evidence": "06:13–22 and 39–41 compare actual options, including Resume only and D only.",
+      "reviewBasis": "Carried forward unchanged from initial independent review; original evidence references refer to that review snapshot."
+    },
+    {
+      "id": "D4",
+      "group": "Decisions",
+      "check": "舍弃理由具体",
+      "status": "PASS",
+      "evidence": "06 alternatives identify monitoring permissions, content maintenance, cognitive burden and data copies rather than generic cost claims.",
+      "reviewBasis": "Carried forward unchanged from initial independent review; original evidence references refer to that review snapshot."
+    },
+    {
+      "id": "D5",
+      "group": "Decisions",
+      "check": "后果包含代价",
+      "status": "PASS",
+      "evidence": "06:26–37 names unknowns, confidence and overturning conditions.",
+      "reviewBasis": "Carried forward unchanged from initial independent review; original evidence references refer to that review snapshot."
+    },
+    {
+      "id": "R1",
+      "group": "Research",
+      "check": "单一主研究问题显式",
+      "status": "PASS",
+      "evidence": "PASS after F06: 02:5 states a single primary question comparing self-selected C/D with direct Resume and including burden.",
+      "reviewBasis": "Targeted final recheck"
+    },
+    {
+      "id": "R2",
+      "group": "Research",
+      "check": "主张有出处",
+      "status": "PASS",
+      "evidence": "02:11–18 tags stakeholder report, source evidence, code facts and team hypotheses separately; this pass did not re-run the external literature audit.",
+      "reviewBasis": "Carried forward unchanged from initial independent review; original evidence references refer to that review snapshot."
+    },
+    {
+      "id": "R3",
+      "group": "Research",
+      "check": "来源和计划有日期",
+      "status": "PASS",
+      "evidence": "02:3/13–14 and 10 source versions distinguish 2022/2020 studies from the 2026 research plan.",
+      "reviewBasis": "Carried forward unchanged from initial independent review; original evidence references refer to that review snapshot."
+    },
+    {
+      "id": "R4",
+      "group": "Research",
+      "check": "信心区分明确",
+      "status": "PASS",
+      "evidence": "02 evidence matrix and 04 H1–H7 do not equate code certainty with user value.",
+      "reviewBasis": "Carried forward unchanged from initial independent review; original evidence references refer to that review snapshot."
+    },
+    {
+      "id": "R5",
+      "group": "Research",
+      "check": "证据缺口可见",
+      "status": "PASS",
+      "evidence": "02:3, 05:63, 08:3 state zero actual participants; phone detection and clinical efficacy are not claimed.",
+      "reviewBasis": "Carried forward unchanged from initial independent review; original evidence references refer to that review snapshot."
+    },
+    {
+      "id": "R6",
+      "group": "Research",
+      "check": "研究简报有行动建议",
+      "status": "PASS",
+      "evidence": "PASS after F06: 02:71 recommends consented small-sample comparison, keeps C/D and Resume, limits B to burden comparison, and states a stopping direction.",
+      "reviewBasis": "Targeted final recheck"
+    }
+  ],
+  "counts": {
+    "PASS": 22,
+    "NEEDS WORK": 0,
+    "MISSING": 0
+  },
+  "resolutions": [
+    {
+      "id": "F01",
+      "status": "RESOLVED",
+      "evidence": [
+        "docs/product/08_MEASUREMENT_AND_TEST.md:7",
+        "docs/product/08_MEASUREMENT_AND_TEST.md:15"
+      ],
+      "observed": "All N includes baseline-only Resume, every Detour refuser and voluntary withdrawals; missing results stay visible and do not count as successful outcomes."
+    },
+    {
+      "id": "F02",
+      "status": "RESOLVED",
+      "evidence": [
+        "docs/product/08_MEASUREMENT_AND_TEST.md:20",
+        "docs/product/08_MEASUREMENT_AND_TEST.md:59",
+        "docs/product/05_V02_PRD.md:67",
+        "docs/product/09_RELEASE_GATES.md:8"
+      ],
+      "observed": "Responder-based clarity is explicitly descriptive. The same C or D must separately meet c/N >=80% and v/N >=60%; variant mixing and B-based release are excluded."
+    },
+    {
+      "id": "F03",
+      "status": "RESOLVED",
+      "evidence": [
+        "docs/product/08_MEASUREMENT_AND_TEST.md:13",
+        "docs/product/08_MEASUREMENT_AND_TEST.md:23"
+      ],
+      "observed": "D t0 is the explicit transition from the fork to the return card. Two-times-duration protection applies only to C/B; D and direct Resume report observable operation time."
+    },
+    {
+      "id": "F04",
+      "status": "RESOLVED",
+      "evidence": [
+        "docs/product/08_MEASUREMENT_AND_TEST.md:42",
+        "docs/product/08_MEASUREMENT_AND_TEST.md:43",
+        "docs/product/08_MEASUREMENT_AND_TEST.md:44"
+      ],
+      "observed": "An unprompted choice occurs after the baseline and before moderator-assigned comparisons. Comparisons are voluntary and refusals remain in N; observed lab choice is not called real-world adoption."
+    },
+    {
+      "id": "F05",
+      "status": "RESOLVED",
+      "evidence": [
+        "docs/product/05_V02_PRD.md:55",
+        "docs/product/05_V02_PRD.md:57",
+        "docs/product/09_RELEASE_GATES.md:18"
+      ],
+      "observed": "Future resumeDetour must validate expected revision/status and activate in one repository transaction. Existing activateTask lacks that contract. Conflicts must open zero resources, with cross-window modification/archive/deletion regression cases required for Gate2.",
+      "boundary": "This closes the specification defect only. No production command or integration was implemented or verified in this review."
+    },
+    {
+      "id": "F06",
+      "status": "RESOLVED",
+      "evidence": [
+        "docs/product/02_USER_RESEARCH.md:5",
+        "docs/product/02_USER_RESEARCH.md:71"
+      ],
+      "observed": "The research brief now opens with one primary comparison question and closes with a concrete consented-study recommendation and stopping direction."
+    }
+  ],
+  "unresolvedFindings": [],
+  "requiredChecks": {
+    "allParticipantDenominator": "PASS — 08:15/59 include Resume-only/refusal/withdrawal, score the same C or D with all-N c/N and v/N, and do not count missing as success.",
+    "dT0": "PASS — 08:13 defines the explicit fork-to-return-card transition; 08:23 does not apply timed C/B protection to D.",
+    "noHumanSamples": "PASS — 02:3, 05:65 and 08:3 still disclose zero actual human participants and no A/B results.",
+    "fixedFilenames": "PASS — user-required docs/product filenames retained, no rename needed.",
+    "resumeSemantics": "PASS at specification level — explicit task binding, draft flush and checkpoint paused/current=null remain; future atomic expectedRevision/status activation and zero-open failure are required, not claimed as implemented.",
+    "prototypeInspection": "Not performed as part of this targeted document re-review; prototype code/behavior remains separately reviewed and tested."
+  },
+  "isolationEvidence": {
+    "source": "artifacts/product-discovery/isolation.json",
+    "evidenceFinishedAt": "2026-10-23T02:09:57.108Z",
+    "performedBy": "Parent workflow; reviewer inspected the report and counted the 15 built output files.",
+    "lintExitCode": 0,
+    "typecheckExitCode": 0,
+    "buildExitCode": 0,
+    "protectedOriginalFileCount": 79,
+    "builtFileCount": 15,
+    "changedProtectedOriginalPaths": [],
+    "changedProductionBuildPaths": [],
+    "addedProductionBuildPaths": [],
+    "prototypeMarkersFound": [],
+    "productionBuildByteIdenticalToBaseline": true,
+    "originalOutputAndZipUntouched": true,
+    "boundary": "Evidence supports build isolation for this reviewed state. It is not human-value evidence, a production Detour integration test, or a guarantee for later edits.",
+    "followupVerification": "The later root lint/typecheck/build rerun also passed, with all 79 protected originals unchanged and all 15 production build files byte-identical."
+  },
+  "sourceSha256": [
+    {
+      "path": "docs/product/00_PRODUCT_VISION.md",
+      "sha256": "59f701ab40c5e2e71499279ae06703352e4b9f336c3369292aae3ee99cbb87af"
+    },
+    {
+      "path": "docs/product/02_USER_RESEARCH.md",
+      "sha256": "a88c5cec50769a3729d1e9d494e6cc3ceaa3248e6e66d7a3e665065e1d6cc0c3"
+    },
+    {
+      "path": "docs/product/04_OPPORTUNITY_MAP.md",
+      "sha256": "de22c130f36aaf2c7fec7b9f4c6a452f3a0679da925ba82b226cbee331fda861"
+    },
+    {
+      "path": "docs/product/05_V02_PRD.md",
+      "sha256": "dbb68a5b7b570cec9c59c9d0ae5d97fa5ebd671a032eb5abe20511d7a61ec4b4"
+    },
+    {
+      "path": "docs/product/06_DECISIONS.md",
+      "sha256": "b9691f4b9ea584dcc5da65f7c5e14d559958313b4f0540fcc7242c1c208d2e47"
+    },
+    {
+      "path": "docs/product/07_ROADMAP.md",
+      "sha256": "47af33ad25a290bf90745af1beabf1f4574a000f78da799da78659b663c3ae28"
+    },
+    {
+      "path": "docs/product/08_MEASUREMENT_AND_TEST.md",
+      "sha256": "ecbee204c797d1e98270d6d3cb59f9a8fc30f63d66a7d6a7574375af5520f2c5"
+    },
+    {
+      "path": "docs/product/09_RELEASE_GATES.md",
+      "sha256": "e2872305a8271db74dd3947a0a153fb7e0640ace679b6e7ff9c8897fd1c3bee0"
+    },
+    {
+      "path": "docs/product/10_SKILLS_AND_WORKFLOW.md",
+      "sha256": "fa84294251013d0d18fedf7ea8e6fb1fdab96c13eb180113cd2d0e454df82898"
+    },
+    {
+      "path": "docs/product/11_INTERACTION_SPEC.md",
+      "sha256": "13015ac014e81aee7c58ca3c532e15cbe47114252b5a8ea807197f1ddd2759aa"
+    },
+    {
+      "path": "artifacts/product-discovery/prd-review.md",
+      "sha256": "cb13a273cee503ca547d9e54945d21ac1f12b7216f81616bb45eb616ccb9c7a5"
+    },
+    {
+      "path": "artifacts/product-discovery/prd-review.json",
+      "sha256": "2b19d1e5097ca4b507ae50bc8746098796a375a779a9d66da655b1ea99b8c98c"
+    },
+    {
+      "path": "artifacts/product-discovery/isolation.json",
+      "sha256": "b3db32ec12f8aaa77e0859c70014568d64d0b3fe8c58b75817cdd8a884395698"
+    }
+  ],
+  "verdict": "Ready for Review",
+  "releaseStatus": {
+    "Gate1": "NOT PASSED — zero human research participants",
+    "Gate2": "NOT STARTED — production integration and checked transaction command remain future work"
+  },
+  "nextAction": "Proceed with the separate prototype handoff and voluntary research preparation. Do not interpret document readiness as product value, human acceptance, or release approval.",
+  "finalEvidenceRefresh": {
+    "previousReviewedAt": "2026-10-23 02:00:12 UTC",
+    "checkedAt": "2026-10-23 02:11:50 UTC",
+    "coreDocuments": [
+      "docs/product/05_V02_PRD.md",
+      "docs/product/08_MEASUREMENT_AND_TEST.md",
+      "docs/product/09_RELEASE_GATES.md"
+    ],
+    "result": "PASS — inclusive N, same-candidate 80%/60%, D t0, C/B-only duration guard, atomic conditional activation, zero-open failures and unpassed human/production gates are unchanged.",
+    "hashRefreshScope": "All previously listed input files hashed again; other checklist judgments carried forward without a new full review.",
+    "laterIsolationFinishedAt": "2026-10-23T02:09:57.108Z",
+    "initialReviewPreserved": true
+  }
+}

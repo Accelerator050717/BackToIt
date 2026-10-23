@@ -1,0 +1,23 @@
+{
+  "files": 167,
+  "totalBytes": 2448287,
+  "credentialPatterns": [
+    "github-token",
+    "openai-key",
+    "aws-id",
+    "google-key",
+    "slack-token",
+    "private-key",
+    "jwt"
+  ],
+  "credentialFindings": [],
+  "personalPathFindings": [],
+  "deniedPaths": [],
+  "largeFiles": [],
+  "missingV01SourceFiles": [],
+  "protectedFilesCompared": 79,
+  "changedProtectedFiles": [],
+  "brokenMarkdownLinks": [],
+  "note": "Pattern and allowlist review do not detect every possible secret. Test fixtures and synthetic screenshots also reviewed. No credentials or credential-helper output are stored in this report.",
+  "scope": "167 payload files staged before this generated preflight report was added; this report is metadata only."
+}

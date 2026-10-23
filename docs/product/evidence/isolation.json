@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-22",
+  "timeZone": "America/Los_Angeles",
+  "finishedAt": "2026-10-23T02:09:57.108Z",
+  "method": "Run root lint/typecheck with all research sources present. Build the original WXT config from the actual project root, overriding only outDir to a separate ignored research directory; never overwrite .output.",
+  "outputDirectory": "artifacts/product-discovery/production-build-check/chrome-mv3",
+  "results": [
+    {
+      "command": "pnpm lint",
+      "exitCode": 0
+    },
+    {
+      "command": "pnpm typecheck",
+      "exitCode": 0
+    },
+    {
+      "command": "pnpm build --config artifacts/product-discovery/wxt-isolation.config.ts",
+      "exitCode": 0
+    }
+  ],
+  "protectedFileCount": 79,
+  "changedProtectedOriginalPaths": [],
+  "changedProductionBuildPaths": [],
+  "addedProductionBuildPaths": [],
+  "prototypeMarkersFound": [],
+  "productionBuildByteIdenticalToBaseline": true,
+  "originalOutputAndZipUntouched": true
+}

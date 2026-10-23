@@ -1,0 +1,125 @@
+$ wxt build
+
+WXT 0.21.4
+i Building chrome-mv3 for production with Vite 8.3.1
+[?25l
+⠋ Preparing...[K
+⠋ [1/2] app, sidepanel[K
+⠙ [1/2] app, sidepanel[K
+⠹ [1/2] app, sidepanel[K
+⠸ [1/2] app, sidepanel[K
+⠼ [1/2] app, sidepanel[K
+⠴ [1/2] app, sidepanel[K
+⠦ [1/2] app, sidepanel[K
+⠧ [1/2] app, sidepanel[K
+⠇ [1/2] app, sidepanel[K
+⠏ [1/2] app, sidepanel[K
+⠋ [1/2] app, sidepanel[K
+⠙ [1/2] app, sidepanel[K
+⠹ [1/2] app, sidepanel[K
+⠸ [1/2] app, sidepanel[K
+⠼ [1/2] app, sidepanel[K
+⠴ [1/2] app, sidepanel[K
+⠦ [1/2] app, sidepanel[K
+⠧ [1/2] app, sidepanel[K
+⠇ [1/2] app, sidepanel[K
+⠏ [1/2] app, sidepanel[K
+⠋ [1/2] app, sidepanel[K
+⠙ [1/2] app, sidepanel[K
+⠹ [1/2] app, sidepanel[K
+⠸ [1/2] app, sidepanel[K
+⠼ [1/2] app, sidepanel[K
+⠴ [1/2] app, sidepanel[K
+⠦ [1/2] app, sidepanel[K
+⠧ [1/2] app, sidepanel[K
+⠇ [1/2] app, sidepanel[K
+⠏ [1/2] app, sidepanel[K
+⠋ [1/2] app, sidepanel[K
+⠙ [1/2] app, sidepanel[K
+⠹ [1/2] app, sidepanel[K
+⠸ [1/2] app, sidepanel[K
+⠼ [1/2] app, sidepanel[K
+⠴ [1/2] app, sidepanel[K
+⠦ [1/2] app, sidepanel[K
+⠧ [1/2] app, sidepanel[K
+⠇ [1/2] app, sidepanel[K
+⠏ [1/2] app, sidepanel[K
+⠋ [1/2] app, sidepanel[K
+⠙ [1/2] app, sidepanel[K
+⠹ [1/2] app, sidepanel[K
+⠸ [1/2] app, sidepanel[K
+⠼ [1/2] app, sidepanel[K
+⠴ [1/2] app, sidepanel[K
+⠦ [1/2] app, sidepanel[K
+⠧ [1/2] app, sidepanel[K
+⠇ [1/2] app, sidepanel[K
+⠏ [1/2] app, sidepanel[K
+⠋ [1/2] app, sidepanel[K
+⠙ [1/2] app, sidepanel[K
+⠹ [1/2] app, sidepanel[K
+⠸ [1/2] app, sidepanel[K
+⠼ [1/2] app, sidepanel[K
+⠴ [1/2] app, sidepanel[K
+⠦ [1/2] app, sidepanel[K
+⠧ [1/2] app, sidepanel[K
+⠇ [1/2] app, sidepanel[K
+⠏ [1/2] app, sidepanel[K
+⠋ [1/2] app, sidepanel[K
+⠙ [1/2] app, sidepanel[K
+⠹ [1/2] app, sidepanel[K
+⠸ [1/2] app, sidepanel[K
+⠼ [1/2] app, sidepanel[K
+⠴ [1/2] app, sidepanel[K
+⠦ [1/2] app, sidepanel[K
+⠧ [1/2] app, sidepanel[K
+⠇ [1/2] app, sidepanel[K
+⠏ [1/2] app, sidepanel[K
+⠋ [1/2] app, sidepanel[K
+⠙ [1/2] app, sidepanel[K
+⠹ [1/2] app, sidepanel[K
+⠸ [1/2] app, sidepanel[K
+⠼ [1/2] app, sidepanel[K
+⠴ [1/2] app, sidepanel[K
+⠦ [1/2] app, sidepanel[K
+⠧ [1/2] app, sidepanel[K
+⠇ [1/2] app, sidepanel[K
+⠏ [1/2] app, sidepanel[K
+⠋ [1/2] app, sidepanel[K
+⠙ [1/2] app, sidepanel[K
+⠹ [1/2] app, sidepanel[K
+⠸ [1/2] app, sidepanel[K
+⠼ [1/2] app, sidepanel[K
+⠴ [1/2] app, sidepanel[K
+⠦ [1/2] app, sidepanel[K[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[33m[PLUGIN_TIMINGS] [0mJavaScript callbacks ran for 1.2s of this 7.7s build (15%).
+1 callback is listed without a time. Its calls overlapped, so the time inside one call includes work from other calls. To find its cost, profile the build with `node --cpu-prof`:
+  - plugin vite:build-html transform (2 calls)
+See https://rolldown.rs/reference/InputOptions.checks#bundlertimings for more details.
+
+
+⠦ [2/2] background[K
+⠧ [2/2] background[K
+⠇ [2/2] background[K
+[K[?25h
+[K[?25h√ Built extension in 8.064 s
+  ├─ .output\chrome-mv3\manifest.json                 1.04 kB  
+  ├─ .output\chrome-mv3\app.html                      475 B    
+  ├─ .output\chrome-mv3\sidepanel.html                533 B    
+  ├─ .output\chrome-mv3\background.js                 205.83 kB
+  ├─ .output\chrome-mv3\chunks\app-BGPh6_-K.js        204 B    
+  ├─ .output\chrome-mv3\chunks\App-pXsH3DOs.js        511.80 kB
+  ├─ .output\chrome-mv3\chunks\sidepanel-BPQliI2c.js  193 B    
+  ├─ .output\chrome-mv3\assets\App-D8xY4H4d.css       30.34 kB 
+  ├─ .output\chrome-mv3\_locales\en\messages.json     389 B    
+  ├─ .output\chrome-mv3\_locales\zh_CN\messages.json  389 B    
+  ├─ .output\chrome-mv3\icon\128.png                  1.40 kB  
+  ├─ .output\chrome-mv3\icon\16.png                   290 B    
+  ├─ .output\chrome-mv3\icon\32.png                   491 B    
+  ├─ .output\chrome-mv3\icon\48.png                   654 B    
+  └─ .output\chrome-mv3\icon\mark.svg                 302 B    
+Σ Total size: 754.32 kB                             
+√ Finished in 8.746 s

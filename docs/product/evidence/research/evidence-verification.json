@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-10-23T01:43:52.933Z",
+  "passed": true,
+  "repositories": 5,
+  "runtimeAssertions": 6,
+  "screenshots": [
+    {
+      "file": "neuroflow-480.png",
+      "width": 360,
+      "height": 480,
+      "bytes": 10475
+    },
+    {
+      "file": "neuroflow-active.png",
+      "width": 400,
+      "height": 620,
+      "bytes": 8853
+    },
+    {
+      "file": "neuroflow-completed.png",
+      "width": 400,
+      "height": 620,
+      "bytes": 9252
+    },
+    {
+      "file": "resettle-breathing-360.png",
+      "width": 360,
+      "height": 800,
+      "bytes": 70775
+    },
+    {
+      "file": "resettle-dashboard-360.png",
+      "width": 360,
+      "height": 1407,
+      "bytes": 222289
+    },
+    {
+      "file": "resettle-picker-360.png",
+      "width": 360,
+      "height": 800,
+      "bytes": 89585
+    }
+  ],
+  "errors": []
+}

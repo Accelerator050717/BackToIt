@@ -1,0 +1,9 @@
+{
+  "extensionName": { "message": "接着来 / BackToIt" },
+  "extensionDescription": {
+    "message": "主动保存任务现场、网页与下一步，下次回来直接接着做。数据默认只在本机。"
+  },
+  "actionTitle": { "message": "打开接着来" },
+  "openPanel": { "message": "打开接着来侧边栏" },
+  "savePage": { "message": "保存当前网页到接着来" }
+}

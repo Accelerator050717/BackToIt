@@ -1,0 +1,9 @@
+{
+  "extensionName": { "message": "BackToIt / 接着来" },
+  "extensionDescription": {
+    "message": "Keep your place, your resources, and one next step. Come back and pick up where you left off. Local by default."
+  },
+  "actionTitle": { "message": "Open BackToIt" },
+  "openPanel": { "message": "Open BackToIt side panel" },
+  "savePage": { "message": "Save this page to BackToIt" }
+}

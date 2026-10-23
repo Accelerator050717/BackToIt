@@ -1,0 +1,275 @@
+{
+  "numTotalTestSuites": 3,
+  "numPassedTestSuites": 3,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 18,
+  "numPassedTests": 18,
+  "numFailedTests": 0,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "snapshot": {
+    "added": 0,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0,
+    "didUpdate": false
+  },
+  "startTime": 1792720117519,
+  "success": true,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "bounded detours and faithful return"
+          ],
+          "fullName": "bounded detours and faithful return never starts automatically on the Resume card",
+          "status": "passed",
+          "title": "never starts automatically on the Resume card",
+          "duration": 3.5576999999998407,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "bounded detours and faithful return"
+          ],
+          "fullName": "bounded detours and faithful return binds the exact original next step and revision independently of a current-task pointer",
+          "status": "passed",
+          "title": "binds the exact original next step and revision independently of a current-task pointer",
+          "duration": 9.607100000000173,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "bounded detours and faithful return"
+          ],
+          "fullName": "bounded detours and faithful return recovers a completed break from timestamps after reopening, without starting a new round",
+          "status": "passed",
+          "title": "recovers a completed break from timestamps after reopening, without starting a new round",
+          "duration": 1.2813999999998487,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "bounded detours and faithful return"
+          ],
+          "fullName": "bounded detours and faithful return handles duration boundaries deterministically and never shows a negative countdown",
+          "status": "passed",
+          "title": "handles duration boundaries deterministically and never shows a negative countdown",
+          "duration": 0.7132000000001426,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "bounded detours and faithful return"
+          ],
+          "fullName": "bounded detours and faithful return ends the finite interaction after exactly three actions and ignores further touches",
+          "status": "passed",
+          "title": "ends the finite interaction after exactly three actions and ignores further touches",
+          "duration": 0.7566999999999098,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "bounded detours and faithful return"
+          ],
+          "fullName": "bounded detours and faithful return accepts early exit but ignores stale actions from another round",
+          "status": "passed",
+          "title": "accepts early exit but ignores stale actions from another round",
+          "duration": 0.6023999999997613,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "bounded detours and faithful return"
+          ],
+          "fullName": "bounded detours and faithful return requires an explicit bounded extension and allows only one extra round per visit",
+          "status": "passed",
+          "title": "requires an explicit bounded extension and allows only one extra round per visit",
+          "duration": 0.7188000000001011,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "bounded detours and faithful return"
+          ],
+          "fullName": "bounded detours and faithful return does not activate or silently adopt changed task text",
+          "status": "passed",
+          "title": "does not activate or silently adopt changed task text",
+          "duration": 0.9083999999998014,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "bounded detours and faithful return"
+          ],
+          "fullName": "bounded detours and faithful return makes archive and missing-next states explicit",
+          "status": "passed",
+          "title": "makes archive and missing-next states explicit",
+          "duration": 0.6509000000000924,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "bounded detours and faithful return"
+          ],
+          "fullName": "bounded detours and faithful return drops the textual snapshot on deletion and never binds a replacement task silently",
+          "status": "passed",
+          "title": "drops the textual snapshot on deletion and never binds a replacement task silently",
+          "duration": 0.653700000000299,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "bounded detours and faithful return"
+          ],
+          "fullName": "bounded detours and faithful return supports the no-content control without requiring a timer or inventing a task",
+          "status": "passed",
+          "title": "supports the no-content control without requiring a timer or inventing a task",
+          "duration": 0.5480000000002292,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "bounded detours and faithful return"
+          ],
+          "fullName": "bounded detours and faithful return preserves user-authored wording when switching interface language and ends today without failure state",
+          "status": "passed",
+          "title": "preserves user-authored wording when switching interface language and ends today without failure state",
+          "duration": 0.978099999999813,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "bounded detours and faithful return"
+          ],
+          "fullName": "bounded detours and faithful return rejects unknown fields and invalid deadline data without silently replacing it",
+          "status": "passed",
+          "title": "rejects unknown fields and invalid deadline data without silently replacing it",
+          "duration": 4.36869999999999,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "bounded detours and faithful return"
+          ],
+          "fullName": "bounded detours and faithful return cannot navigate away and silently replace an unfinished break",
+          "status": "passed",
+          "title": "cannot navigate away and silently replace an unfinished break",
+          "duration": 0.9506999999998698,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1792720119977,
+      "endTime": 1792720120003.9507,
+      "status": "passed",
+      "message": "",
+      "name": "<repo>/prototypes/detour/tests/model.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "fullName": "serializes two window commands against the latest saved version",
+          "status": "passed",
+          "title": "serializes two window commands against the latest saved version",
+          "duration": 18.014999999999873,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "keeps corrupted content intact until an explicit reset is chosen",
+          "status": "passed",
+          "title": "keeps corrupted content intact until an explicit reset is chosen",
+          "duration": 5.329399999999623,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "rejects a stale form revision and retains the other window’s saved text",
+          "status": "passed",
+          "title": "rejects a stale form revision and retains the other window’s saved text",
+          "duration": 2.3861000000001695,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "does not report persistence success or mutate the prior state on quota failure",
+          "status": "passed",
+          "title": "does not report persistence success or mutate the prior state on quota failure",
+          "duration": 3.260899999999765,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1792720120028,
+      "endTime": 1792720120057.261,
+      "status": "passed",
+      "message": "",
+      "name": "<repo>/prototypes/detour/tests/store.test.ts"
+    }
+  ]
+}

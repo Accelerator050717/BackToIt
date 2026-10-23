@@ -1,0 +1,20 @@
+{
+  "extends": "./.wxt/tsconfig.json",
+  "compilerOptions": {
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noFallthroughCasesInSwitch": true,
+    "jsx": "react-jsx",
+    "types": ["chrome", "node", "vitest/globals", "@testing-library/jest-dom"]
+  },
+  "exclude": [
+    "node_modules",
+    ".playwright-browsers",
+    ".output",
+    ".pnpm-store",
+    ".pnpm-cache",
+    "artifacts",
+    "playwright-report",
+    "test-results"
+  ]
+}

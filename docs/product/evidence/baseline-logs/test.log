@@ -1,0 +1,10 @@
+$ vitest run
+
+ RUN  v5.0.3 <repo>/artifacts/product-discovery/baseline-workspace-lL2g2S
+
+
+ Test Files  10 passed (10)
+      Tests  105 passed (105)
+   Start at  18:32:51
+   Duration  36.48s (environment 66%, setup 27%, import 5%, tests 1%, transform 1%)
+

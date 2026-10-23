@@ -1,0 +1,26 @@
+{
+  "kind": "original-unpacked-extension-popup-as-tab",
+  "sourceCommit": "b6043dd8b56f2a4a77ffbcf547fb7633ca6ebc68",
+  "ranAt": "2026-10-23T01:37:09.171Z",
+  "assertions": [
+    "Enter creates exactly one visible task",
+    "Task survives popup document reload",
+    "Completion and Active/Completed filters work"
+  ],
+  "limitation": "Popup document opened as an extension tab; active host is that extension id. Native toolbar placement and host switching are not validated.",
+  "extensionId": "jbpiahekaiimehageiekakdgbfeigcbn",
+  "inputAt620": {
+    "top": 576,
+    "bottom": 610,
+    "centerHit": "FOOTER",
+    "centerCovered": true
+  },
+  "buttons": [
+    "All",
+    "Active",
+    "Completed",
+    "Add"
+  ],
+  "pageErrors": [],
+  "pass": true
+}
