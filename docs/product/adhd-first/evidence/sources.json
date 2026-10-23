@@ -1,0 +1,163 @@
+{
+  "schema": 1,
+  "researchDate": "2026-10-23",
+  "timeZone": "America/Los_Angeles",
+  "purpose": "Product discovery; no diagnosis, treatment evaluation, or claims of BackToIt efficacy",
+  "realParticipants": 0,
+  "handling": "Repository contains source metadata and original paraphrases only. Raw retrieval output is ignored under artifacts/adhd-first/research. No community usernames, health histories, participant data, or quoted study-participant speech retained.",
+  "sources": [
+    {
+      "id": "S01",
+      "type": "official_education",
+      "organization": "NIMH",
+      "title": "ADHD in Adults: 4 Things to Know",
+      "url": "https://www.nimh.nih.gov/health/publications/adhd-what-you-need-to-know",
+      "access": "html_body_accessible",
+      "readScope": ["adult daily-life impacts", "individual variation"],
+      "publicationDate": "not independently verified",
+      "adoption": "Problem framing only; no product efficacy inference"
+    },
+    {
+      "id": "S02",
+      "type": "official_education",
+      "organization": "NIMH",
+      "title": "Attention-Deficit/Hyperactivity Disorder: What You Need to Know",
+      "url": "https://www.nimh.nih.gov/health/publications/attention-deficit-hyperactivity-disorder-what-you-need-to-know",
+      "access": "html_body_accessible",
+      "readScope": [
+        "daily functioning",
+        "working memory and executive-function terminology",
+        "individual variation"
+      ],
+      "publicationDate": "not independently verified",
+      "adoption": "Support needs vocabulary; not screening or diagnosis"
+    },
+    {
+      "id": "S03",
+      "type": "institutional_practical_guidance",
+      "organization": "CHADD National Resource Center on ADHD",
+      "title": "Workplace Issues",
+      "url": "https://chadd.org/for-adults/workplace-issues/",
+      "access": "origin_html_403; official-page-index-body_readable_via_targeted_search",
+      "readScope": ["distraction", "stimulation", "memory", "time management", "procrastination"],
+      "publicationDate": "not independently verified",
+      "adoption": "Task chunking and externalizing a thought as candidate mechanisms; index may be stale; not an intervention trial"
+    },
+    {
+      "id": "S04",
+      "type": "coach_experience_article",
+      "organization": "CHADD Attention",
+      "author": "Vidya Guhan",
+      "title": "If This Is Supposed to Be Easy, Why Is It So Hard?",
+      "url": "https://chadd.org/attention-article/if-this-is-supposed-to-be-easy-why-is-it-so-hard/",
+      "alternativeUrl": "https://chadd.org/wp-content/uploads/2021/07/ATTN_08_2021_Supposed_to_be_Easy.pdf",
+      "access": "origin_html_and_pdf_403; article_index_body_readable_via_search",
+      "readScope": [
+        "situational variability",
+        "interest",
+        "strengths and challenges",
+        "structure and flexibility",
+        "supportive environment"
+      ],
+      "publicationDate": "Official PDF filename suggests Attention August 2021; precise publication date not independently verified",
+      "adoption": "Interest and agency as design questions; biological simplifications and broad gamification recommendations not used as evidence of app benefit"
+    },
+    {
+      "id": "S05",
+      "type": "original_peer_reviewed_experiment",
+      "authors": "Luna-Rodriguez et al.",
+      "title": "Selective impairment of attentional set shifting in adults with ADHD",
+      "url": "https://link.springer.com/article/10.1186/s12993-018-0150-y",
+      "doi": "10.1186/s12993-018-0150-y",
+      "publicationDate": "2018-11-10",
+      "access": "publisher_html_body_accessible",
+      "readScope": ["abstract", "methods", "results", "discussion"],
+      "sample": "38 adults with ADHD; 39 controls; laboratory task switching",
+      "adoption": "Switching effects depend on attentional-set change; no direct evidence for phone-to-task re-entry or this product",
+      "reuse": "Citation and brief paraphrase only; no code, figures, or participant quotations copied"
+    },
+    {
+      "id": "S06",
+      "type": "original_peer_reviewed_experiment",
+      "authors": "Marx et al.",
+      "title": "The Impact of Financial Reward Contingencies on Cognitive Function Profiles in Adult ADHD",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0067002",
+      "doi": "10.1371/journal.pone.0067002",
+      "publicationDate": "2013-06-20",
+      "access": "publisher_html_body_accessible",
+      "readScope": ["abstract", "methods", "task-specific results", "discussion and limitations"],
+      "sample": "38 adults with ADHD; 40 matched controls; six laboratory paradigms",
+      "adoption": "Motivational effects vary by measure; financial reward is not a tactile microinteraction; no efficacy claim",
+      "reuse": "Citation and brief paraphrase only; no code, figures, or participant quotations copied"
+    },
+    {
+      "id": "S07",
+      "type": "original_peer_reviewed_qualitative_study",
+      "authors": "Oscarsson et al.",
+      "title": "Stress and work-related mental illness among working adults with ADHD: a qualitative study",
+      "url": "https://link.springer.com/article/10.1186/s12888-022-04409-w",
+      "doi": "10.1186/s12888-022-04409-w",
+      "publicationDate": "2022-11-30",
+      "access": "publisher_html_body_accessible",
+      "readScope": ["abstract", "methods", "results", "limitations"],
+      "sample": "20 working adults in Sweden; semi-structured interviews",
+      "adoption": "Context, structure, support and stress are relevant questions; no population prevalence or software efficacy inference",
+      "reuse": "Citation and brief paraphrase only; no participant quotations retained"
+    },
+    {
+      "id": "S08",
+      "type": "official_regulatory_guidance",
+      "organization": "FTC",
+      "title": "Health Privacy",
+      "url": "https://www.ftc.gov/business-guidance/privacy-security/health-privacy",
+      "access": "html_body_accessible",
+      "readScope": ["privacy promises", "security obligations", "linked guidance scope"],
+      "publicationDate": "living resource page; publication date not independently verified",
+      "adoption": "Minimize data and honor actual promises; no determination of specific legal applicability"
+    },
+    {
+      "id": "S09",
+      "type": "official_regulatory_guidance",
+      "organization": "FTC",
+      "title": "Marketing Your Mobile App: Get It Right from the Start",
+      "url": "https://www.ftc.gov/business-guidance/resources/marketing-your-mobile-app-get-it-right-start",
+      "access": "html_body_accessible",
+      "readScope": ["truthful advertising", "privacy by design", "transparency and choices", "consent"],
+      "publicationDate": "not independently verified",
+      "adoption": "Accurate ability statements and data minimization; not legal certification"
+    },
+    {
+      "id": "S10",
+      "type": "official_regulatory_guidance",
+      "organization": "FTC",
+      "title": "Health Products Compliance Guidance",
+      "url": "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance",
+      "access": "html_body_accessible",
+      "readScope": [
+        "evidence relevance",
+        "anecdotes",
+        "public health recommendations",
+        "product-specific substantiation"
+      ],
+      "publicationDate": "not independently verified in this pass",
+      "adoption": "Usability interviews cannot substantiate clinical or cognitive-benefit claims; no determination of specific legal applicability"
+    },
+    {
+      "id": "X01",
+      "type": "original_qualitative_study_search_lead",
+      "authors": "Lasky et al.",
+      "title": "ADHD in context: Young adults' reports of the impact of occupational environment on the manifestation of ADHD",
+      "url": "https://escholarship.org/uc/item/925191r7",
+      "doi": "10.1016/j.socscimed.2016.06.003",
+      "publicationYear": 2016,
+      "access": "repository_index_abstract_only; direct_repository_429; PMC_browser_verification",
+      "adoption": "Not used to expand findings from unread full text; retained only as search lead"
+    }
+  ],
+  "searchLimits": [
+    "Targeted official-source and primary-study search, not a systematic review",
+    "No evidence found in the read sources for this app, an optimal 30-second duration, or three-step tactile activity efficacy",
+    "Index text is explicitly distinguished from a successful origin-page visit",
+    "No remote scripts executed and no new packages installed for this research task"
+  ]
+}

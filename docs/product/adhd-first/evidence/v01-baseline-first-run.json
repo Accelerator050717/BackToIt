@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-23",
+  "timeZone": "America/Los_Angeles",
+  "startedAt": "2026-10-23T17:24:03.207Z",
+  "finishedAt": "2026-10-23T17:26:10.664Z",
+  "node": "v24.14.1",
+  "baselineCommit": "776e2486f9ec2404f13e41cd04d70614e02d0763",
+  "workspace": "artifacts/adhd-first/v01-workspace-UgBt3w",
+  "method": "Selected unchanged v0.1 code/config/tests plus previously tracked docs copied to a new ignored workspace. Dependency and official browser runtime junctions reused. No new ADHD-first prototype, production output or original ZIP written. All test-generated profiles stay in this copy.",
+  "results": [
+    {
+      "command": "pnpm lint",
+      "exitCode": 0,
+      "durationMs": 24346,
+      "logPath": "artifacts/adhd-first/v01-baseline-logs/lint.log"
+    },
+    {
+      "command": "pnpm typecheck",
+      "exitCode": 0,
+      "durationMs": 22443,
+      "logPath": "artifacts/adhd-first/v01-baseline-logs/typecheck.log"
+    },
+    {
+      "command": "pnpm test",
+      "exitCode": 0,
+      "durationMs": 28045,
+      "passedTests": 105,
+      "logPath": "artifacts/adhd-first/v01-baseline-logs/test.log"
+    },
+    {
+      "command": "pnpm build",
+      "exitCode": 0,
+      "durationMs": 29353,
+      "logPath": "artifacts/adhd-first/v01-baseline-logs/build.log"
+    },
+    {
+      "command": "pnpm test:e2e",
+      "exitCode": 0,
+      "durationMs": 23224,
+      "passedTests": 6,
+      "logPath": "artifacts/adhd-first/v01-baseline-logs/test-e2e.log"
+    }
+  ],
+  "protectedFileCount": 99,
+  "originalProtectedCoreCount": 79,
+  "oldDetourProtectedFileCount": 20,
+  "preExistingCoreDifferencesFromV02Snapshot": [],
+  "changedProtectedPaths": [],
+  "productionOutputUntouched": true,
+  "productionZipUntouched": true,
+  "oldDetourUntouched": true,
+  "copiedBuildSha256": {
+    ".output/chrome-mv3/app.html": "f00021393166e55aa6a95f58e83bbd1c21e62bbb8e9b07d45667f8d9fb5f8b82",
+    ".output/chrome-mv3/assets/App-DVOAffIz.css": "041660ba71776ed8c172c12c1a5962cfc7fd5f1b4e2f672e47bfbf2c91cc142c",
+    ".output/chrome-mv3/background.js": "6758b550d2026152bc38d3f7d5f9f977cc7a153a0af9b85a3923a35ecc38750d",
+    ".output/chrome-mv3/chunks/app-CPs4j_O6.js": "e554913a9dce2d47ca3f6b84992b99a06c5c89d93d9cff73b6e93a745c243065",
+    ".output/chrome-mv3/chunks/App-W-360lwc.js": "6cab4df9ddaa1e5d3e53607aeecb867b1f68ba2cccecae3a6ae3f184f3bc563e",
+    ".output/chrome-mv3/chunks/sidepanel-Cj8-I9tE.js": "1496713340d58cc61aba50416b798fcbe6a4deb6a32c3e52926c3def9d2c234c",
+    ".output/chrome-mv3/icon/128.png": "65051e62e17847f0dfbebb99e15269d696e29dfae31490c8ac375fd6dff9a591",
+    ".output/chrome-mv3/icon/16.png": "e167ba8f5c87c7845940c651526cae018077f8d3c70e27b1f3f03997360750fd",
+    ".output/chrome-mv3/icon/32.png": "65ed1b0e84f2dd0c249fc6084dc7b7ffb277576ba63e301e902eb17e4a476562",
+    ".output/chrome-mv3/icon/48.png": "03a383c0125aee1e79d16ee7611368543f442aef704b853a0ca0dc1e9999499a",
+    ".output/chrome-mv3/icon/mark.svg": "91d8cef27b9b4dc1c0710fa0bb6449749acaa2d86ddeb7aab4a5b7d83f58b2cd",
+    ".output/chrome-mv3/manifest.json": "1010757832f06e80067269aff053cfde8bbd34404606afe52b6f3e4106348f70",
+    ".output/chrome-mv3/sidepanel.html": "713669d0d60adadad603c39502c9e3f5b3d88fdbf4955be81ddf0361a31e0852",
+    ".output/chrome-mv3/_locales/en/messages.json": "d8bfbed9732d431d0a10b183b4ba4491158365d1cd971dc540eedcf22ff9ffdb",
+    ".output/chrome-mv3/_locales/zh_CN/messages.json": "298349fde13a3b1c49da2dcd6c4d26a953bb0a0870ce7c29d324bf071d16d222"
+  },
+  "copiedBuildDifferencesFromOriginal": [
+    ".output/chrome-mv3/app.html",
+    ".output/chrome-mv3/assets/App-D8xY4H4d.css",
+    ".output/chrome-mv3/chunks/app-BGPh6_-K.js",
+    ".output/chrome-mv3/chunks/App-pXsH3DOs.js",
+    ".output/chrome-mv3/chunks/sidepanel-BPQliI2c.js",
+    ".output/chrome-mv3/sidepanel.html"
+  ],
+  "copiedBuildAddedFiles": [
+    ".output/chrome-mv3/assets/App-DVOAffIz.css",
+    ".output/chrome-mv3/chunks/app-CPs4j_O6.js",
+    ".output/chrome-mv3/chunks/App-W-360lwc.js",
+    ".output/chrome-mv3/chunks/sidepanel-Cj8-I9tE.js"
+  ],
+  "firstFailure": null,
+  "harnessRepairs": []
+}

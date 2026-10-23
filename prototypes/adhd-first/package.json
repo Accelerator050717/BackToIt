@@ -1,0 +1,7 @@
+{
+  "name": "backtoit-adhd-first-research",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Isolated ADHD-first task re-entry research prototype; uses the root lockfile."
+}

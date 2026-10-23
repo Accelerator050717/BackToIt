@@ -1,0 +1,660 @@
+{
+  "config": {
+    "argv": [
+      "Y:\\node.js\\node.exe",
+      "<repo>\\node_modules\\.pnpm\\@playwright+test@1.63.0\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "<repo>\\prototypes\\adhd-first\\playwright.config.ts"
+    ],
+    "configFile": "<repo>\\prototypes\\adhd-first\\playwright.config.ts",
+    "rootDir": "<repo>/prototypes/adhd-first/browser",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "<repo>/artifacts/adhd-first/browser/results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "<repo>/prototypes/adhd-first/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "<repo>\\artifacts\\adhd-first\\browser/results.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "<repo>\\artifacts\\adhd-first\\browser/report",
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": {
+      "command": "node prototypes/adhd-first/scripts/serve-built.mjs",
+      "cwd": "<repo>\\",
+      "url": "http://127.0.0.1:4178",
+      "reuseExistingServer": false,
+      "timeout": 20000
+    }
+  },
+  "suites": [
+    {
+      "title": "reentry.spec.ts",
+      "file": "reentry.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "direct Resume preserves the saved task and isolates browser data and network",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 898,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T17:49:02.072Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "network-and-page-errors",
+                      "contentType": "application/json",
+                      "body": "ewogICJleHRlcm5hbCI6IFtdLAogICJlcnJvcnMiOiBbXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f68d914462b3fda6e55a-cba1eb308527e123bd43",
+          "file": "reentry.spec.ts",
+          "line": 120,
+          "column": 1
+        },
+        {
+          "title": "Tiny Start edits one local suggestion without changing the saved step or forcing a timer",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 985,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T17:49:03.275Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "network-and-page-errors",
+                      "contentType": "application/json",
+                      "body": "ewogICJleHRlcm5hbCI6IFtdLAogICJlcnJvcnMiOiBbXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f68d914462b3fda6e55a-c0ea57579a5a16454d89",
+          "file": "reentry.spec.ts",
+          "line": 152,
+          "column": 1
+        },
+        {
+          "title": "the optional 30-second attempt expires by timestamp, not by an achievement claim (accelerated clock)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 871,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T17:49:04.267Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "network-and-page-errors",
+                      "contentType": "application/json",
+                      "body": "ewogICJleHRlcm5hbCI6IFtdLAogICJlcnJvcnMiOiBbXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f68d914462b3fda6e55a-28e1f7f622a3d5c23b3e",
+          "file": "reentry.spec.ts",
+          "line": 173,
+          "column": 1
+        },
+        {
+          "title": "the tactile puzzle takes three predictable keyboard actions and rejects duplicate stale clicks",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 979,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T17:49:05.151Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "network-and-page-errors",
+                      "contentType": "application/json",
+                      "body": "ewogICJleHRlcm5hbCI6IFtdLAogICJlcnJvcnMiOiBbXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f68d914462b3fda6e55a-48655b1b62f7d5e4d802",
+          "file": "reentry.spec.ts",
+          "line": 190,
+          "column": 1
+        },
+        {
+          "title": "puzzle early exit and one explicit quiet extension retain the task and permit stopping",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 897,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T17:49:06.138Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "network-and-page-errors",
+                      "contentType": "application/json",
+                      "body": "ewogICJleHRlcm5hbCI6IFtdLAogICJlcnJvcnMiOiBbXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f68d914462b3fda6e55a-5739ff1b059009b4c820",
+          "file": "reentry.spec.ts",
+          "line": 217,
+          "column": 1
+        },
+        {
+          "title": "quiet expiry survives reload and a closed page with no running interval (accelerated clock)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1748,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T17:49:07.050Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "network-and-page-errors",
+                      "contentType": "application/json",
+                      "body": "ewogICJleHRlcm5hbCI6IFtdLAogICJlcnJvcnMiOiBbXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f68d914462b3fda6e55a-5dea65ebdb82e0f9c230",
+          "file": "reentry.spec.ts",
+          "line": 239,
+          "column": 1
+        },
+        {
+          "title": "Parking can be empty, caps synthetic thoughts at twelve, and allows explicit deletion",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1015,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T17:49:08.803Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "network-and-page-errors",
+                      "contentType": "application/json",
+                      "body": "ewogICJleHRlcm5hbCI6IFtdLAogICJlcnJvcnMiOiBbXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f68d914462b3fda6e55a-0d7e41385d0d34f9bf18",
+          "file": "reentry.spec.ts",
+          "line": 264,
+          "column": 1
+        },
+        {
+          "title": "a second window changes the bound task: direct return refuses stale text until explicit review",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1779,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T17:49:09.824Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "network-and-page-errors",
+                      "contentType": "application/json",
+                      "body": "ewogICJleHRlcm5hbCI6IFtdLAogICJlcnJvcnMiOiBbXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f68d914462b3fda6e55a-b272652de07354dd8a96",
+          "file": "reentry.spec.ts",
+          "line": 299,
+          "column": 1
+        },
+        {
+          "title": "archive, deletion and replacing the selected task in another window cannot restore a wrong target",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2607,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T17:49:11.609Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "network-and-page-errors",
+                      "contentType": "application/json",
+                      "body": "ewogICJleHRlcm5hbCI6IFtdLAogICJlcnJvcnMiOiBbXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f68d914462b3fda6e55a-0909d036ee6f07bf30a8",
+          "file": "reentry.spec.ts",
+          "line": 325,
+          "column": 1
+        },
+        {
+          "title": "a stale editor keeps its dirty draft and never overwrites a second window’s saved content",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2813,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T17:49:14.223Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "network-and-page-errors",
+                      "contentType": "application/json",
+                      "body": "ewogICJleHRlcm5hbCI6IFtdLAogICJlcnJvcnMiOiBbXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f68d914462b3fda6e55a-067d4042c59d4bd632a1",
+          "file": "reentry.spec.ts",
+          "line": 358,
+          "column": 1
+        },
+        {
+          "title": "corrupted storage is retained until a confirmed reset that changes only this prototype key",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 762,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T17:49:17.042Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "network-and-page-errors",
+                      "contentType": "application/json",
+                      "body": "ewogICJleHRlcm5hbCI6IFtdLAogICJlcnJvcnMiOiBbXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f68d914462b3fda6e55a-5167c2161fa95f3cc616",
+          "file": "reentry.spec.ts",
+          "line": 382,
+          "column": 1
+        },
+        {
+          "title": "quota failure does not claim success, change persisted state or lose a typed tiny action",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 890,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T17:49:17.812Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "network-and-page-errors",
+                      "contentType": "application/json",
+                      "body": "ewogICJleHRlcm5hbCI6IFtdLAogICJlcnJvcnMiOiBbXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f68d914462b3fda6e55a-451ec2359bd60bb36047",
+          "file": "reentry.spec.ts",
+          "line": 416,
+          "column": 1
+        },
+        {
+          "title": "missing next step, English, reduced motion, disabled puzzle and dialog keyboard access remain honest",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1567,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T17:49:18.708Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "network-and-page-errors",
+                      "contentType": "application/json",
+                      "body": "ewogICJleHRlcm5hbCI6IFtdLAogICJlcnJvcnMiOiBbXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f68d914462b3fda6e55a-753d8526b09669b60835",
+          "file": "reentry.spec.ts",
+          "line": 439,
+          "column": 1
+        },
+        {
+          "title": "six requested viewports and 200 percent CSS layout zoom retain actions without horizontal overflow",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1586,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T17:49:20.281Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "network-and-page-errors",
+                      "contentType": "application/json",
+                      "body": "ewogICJleHRlcm5hbCI6IFtdLAogICJlcnJvcnMiOiBbXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f68d914462b3fda6e55a-1e4d292ba05ddefffc14",
+          "file": "reentry.spec.ts",
+          "line": 541,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-23T17:49:01.571Z",
+    "duration": 21175.069000000003,
+    "expected": 14,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

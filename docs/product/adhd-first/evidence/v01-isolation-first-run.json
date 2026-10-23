@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-23",
+  "timeZone": "America/Los_Angeles",
+  "finishedAt": "2026-10-23T17:51:20.462Z",
+  "method": "Root lint/typecheck with the final ADHD-first sources present; original WXT config plus an ignored output-directory override. The original .output and ZIP are never rebuilt in place.",
+  "outputDirectory": "artifacts/adhd-first/production-build-check/chrome-mv3",
+  "results": [
+    {
+      "command": "pnpm lint",
+      "exitCode": 0,
+      "durationMs": 2640,
+      "logPath": "artifacts/adhd-first/v01-isolation-logs/lint.log"
+    },
+    {
+      "command": "pnpm typecheck",
+      "exitCode": 0,
+      "durationMs": 5540,
+      "logPath": "artifacts/adhd-first/v01-isolation-logs/typecheck.log"
+    },
+    {
+      "command": "pnpm build --config artifacts/adhd-first/wxt-isolation.config.ts",
+      "exitCode": 0,
+      "durationMs": 2827,
+      "logPath": "artifacts/adhd-first/v01-isolation-logs/build.log"
+    }
+  ],
+  "protectedFileCount": 99,
+  "changedProtectedPaths": [],
+  "changedProductionBuildPaths": [
+    ".output/chrome-mv3/app.html",
+    ".output/chrome-mv3/assets/App-D8xY4H4d.css",
+    ".output/chrome-mv3/chunks/app-BGPh6_-K.js",
+    ".output/chrome-mv3/chunks/App-pXsH3DOs.js",
+    ".output/chrome-mv3/chunks/sidepanel-BPQliI2c.js",
+    ".output/chrome-mv3/sidepanel.html"
+  ],
+  "addedProductionBuildPaths": [
+    ".output/chrome-mv3/assets/App-BZ_Yqdpx.css",
+    ".output/chrome-mv3/chunks/app-DFFteMTm.js",
+    ".output/chrome-mv3/chunks/App-DMFdu_MM.js",
+    ".output/chrome-mv3/chunks/sidepanel-t3vLj-yh.js"
+  ],
+  "prototypeMarkersFound": [],
+  "productionBuildByteIdenticalToBaseline": false,
+  "originalOutputAndZipUntouched": true,
+  "oldDetourUntouched": true
+}

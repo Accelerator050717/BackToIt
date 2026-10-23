@@ -1,0 +1,389 @@
+{
+  "schema": 1,
+  "reviewDate": "2026-10-23",
+  "timeZone": "America/Los_Angeles",
+  "scope": "docs/product/adhd-first/01-06 and README; cross-reference old v0.2 gates and product index; 07/browser/isolation results intentionally pending",
+  "verdict": "PASS_DOCUMENT_REVIEW",
+  "gateMeaning": "Document review only; no claim that engineering Gate0 passed or human Gate1/2 were performed",
+  "reviewerIndependence": "Cross-agent review of 01/03/05/06/README. The same reviewer authored 02/04 and sources.json earlier, so those are self-review, not independent third-party validation.",
+  "humanParticipants": 0,
+  "files": [
+    {
+      "path": "docs/product/adhd-first/01_POSITIONING.md",
+      "sha256": "d927d8abc3c427bdc5a9976e4735bec1908eb341bfbbf9c926e7a108bfd926a7",
+      "lines": 89
+    },
+    {
+      "path": "docs/product/adhd-first/02_EXECUTIVE_FUNCTION_MAP.md",
+      "sha256": "e80db1bfd1d873e7a1a252ce2b790878faf32de896252393f47e4862591f4ea1",
+      "lines": 64
+    },
+    {
+      "path": "docs/product/adhd-first/03_PRD_V02B.md",
+      "sha256": "3ad4ead7e567a596bde2b39e6d9a6ed73d2d04a787a342f5b0cc1c300675f2c8",
+      "lines": 98
+    },
+    {
+      "path": "docs/product/adhd-first/04_EXPERIMENT_AND_INTERVIEW.md",
+      "sha256": "4b826d5b5fee3c742a83b17b9aaa26212069c452af0267813a4234b9919db3eb",
+      "lines": 139
+    },
+    {
+      "path": "docs/product/adhd-first/05_DECISIONS_AND_TRADEOFFS.md",
+      "sha256": "d3c76d07aa7b095609fb9706f55506999975b65d2d69929aa3e7ecfe60c51cc3",
+      "lines": 90
+    },
+    {
+      "path": "docs/product/adhd-first/06_RELEASE_RECOMMENDATION.md",
+      "sha256": "94d5d96b5d0f4e4c48b4486012a4f726a6e4f6ed3ad128a715a82a6835143608",
+      "lines": 86
+    },
+    {
+      "path": "docs/product/adhd-first/README.md",
+      "sha256": "a27339acc4cf17e1f5b242587ad593d37ca986cf5ef9c151baab02c719f4b8bc",
+      "lines": 33
+    }
+  ],
+  "checks": [
+    {
+      "id": "DR01",
+      "result": "PASS",
+      "question": "ADHD difficulties are tied to concrete mechanisms",
+      "evidence": [
+        "01:17-24",
+        "02:33-52",
+        "03:15-22"
+      ],
+      "detail": "Six contexts map to next-step preservation, editable local tiny action, bounded choice, optional time and normal exit."
+    },
+    {
+      "id": "DR02",
+      "result": "PASS",
+      "question": "Source types and retrieval depth are honest",
+      "evidence": [
+        "02:9-24",
+        "evidence/sources.json"
+      ],
+      "detail": "Official, coach experience, primary research, product and hypotheses separated. CHADD origin 403/index body and excluded unread study lead stated."
+    },
+    {
+      "id": "DR03",
+      "result": "PASS",
+      "question": "No invented human research or efficacy result",
+      "evidence": [
+        "01:86-88",
+        "02:3",
+        "03:7,97",
+        "04:3",
+        "06:3",
+        "README:5,32"
+      ],
+      "detail": "Zero participants and lack of real value validation explicit; Tiny Start ranking is a product judgment."
+    },
+    {
+      "id": "DR04",
+      "result": "PASS",
+      "question": "Lives-language examples not presented as quotations",
+      "evidence": [
+        "01:15",
+        "02:27",
+        "04:56"
+      ],
+      "detail": "Scenario utterances marked hypothetical; user-provided friend's situation remains a stakeholder report."
+    },
+    {
+      "id": "DR05",
+      "result": "PASS",
+      "question": "Three brand candidates compare misleading implications",
+      "evidence": [
+        "01:30-47"
+      ],
+      "detail": "Saved-progress promise and automatic tracking risk evaluated; selected language scoped to task assistance."
+    },
+    {
+      "id": "DR06",
+      "result": "PASS",
+      "question": "Interesting interaction is seriously retained without reward loop",
+      "evidence": [
+        "01:82",
+        "03:53",
+        "05:13-30",
+        "README:5,17"
+      ],
+      "detail": "Three-piece deterministic tactile option implemented as a candidate, not dismissed by a blanket low-stimulation preference. No replay default, scores or random rewards."
+    },
+    {
+      "id": "DR07",
+      "result": "PASS",
+      "question": "Direct Resume and user control remain available",
+      "evidence": [
+        "03:28-43,49-55",
+        "05:32-40"
+      ],
+      "detail": "Single primary action; four needs only after request; no diagnosis mode or forced timer."
+    },
+    {
+      "id": "DR08",
+      "result": "PASS",
+      "question": "No medical or phone capability misrepresentation",
+      "evidence": [
+        "01:9,26",
+        "03:24",
+        "05:60-70",
+        "06:20,54-56"
+      ],
+      "detail": "No diagnosis, treatment, neurotransmitter claim, mobile detection, screen-use permission or real-task QR transfer."
+    },
+    {
+      "id": "DR09",
+      "result": "PASS",
+      "question": "Measure first actual action without forcing it after timer/Resume",
+      "evidence": [
+        "04:33,78,95-96"
+      ],
+      "findingId": "F01",
+      "initialResult": "CLARIFY",
+      "resolution": {
+        "file": "docs/product/adhd-first/04_EXPERIMENT_AND_INTERVIEW.md",
+        "lines": [
+          39,
+          33,
+          80
+        ],
+        "detail": "Phase1 now permits first action during optional assistance and before return click; neutral retrospective wording added. Phase2 asks whether and when action occurred during/after assistance or after return."
+      }
+    },
+    {
+      "id": "DR10",
+      "result": "PASS",
+      "question": "Phase1 denominators include refusal and exit",
+      "evidence": [
+        "04:86,90-100,132",
+        "06:46-50"
+      ],
+      "detail": "N1 includes direct-only/refusal/exit; Np offered, Ap started; faults and missing shown, withdrawals recalculate per consent."
+    },
+    {
+      "id": "DR11",
+      "result": "PASS",
+      "question": "Phase2 denominators distinguish need, non-use and attrition",
+      "evidence": [
+        "04:64-80,88,97",
+        "06:54-58"
+      ],
+      "detail": "N2v/N2r/N2need distinct; not recalled/not opened retained; attrition is not automatically counted as failure."
+    },
+    {
+      "id": "DR12",
+      "result": "PASS",
+      "question": "Consent and true-task exclusion are compatible",
+      "evidence": [
+        "04:9-21,62-70",
+        "03:93",
+        "05:74-78",
+        "06:56"
+      ],
+      "detail": "Separate consent to record; no clinical data/recording; real next step can remain private outside the prototype. Field probe explicitly cannot validate production task binding."
+    },
+    {
+      "id": "DR13",
+      "result": "PASS",
+      "question": "PRD provides falsifiable acceptance and negative examples",
+      "evidence": [
+        "03:45-89"
+      ],
+      "detail": "P0-01 through P0-16 specify observable contracts for branches, local suggestions, source labels, time, conflicts, failures, language, access and isolation. Passing is not asserted by listing requirements."
+    },
+    {
+      "id": "DR14",
+      "result": "PASS",
+      "question": "Historical v0.2 conclusions are not rewritten as new evidence",
+      "evidence": [
+        "01:86",
+        "05:3",
+        "README:32",
+        "../README:3",
+        "git diff scoped old product files"
+      ],
+      "detail": "Old PRD/decisions/research/gates have no current content diff. Old skills workflow only has a dated four-line addition."
+    },
+    {
+      "id": "DR15",
+      "result": "PASS",
+      "question": "New/old gate numbering migration is clear",
+      "evidence": [
+        "06:36,44,52,60",
+        "../09_RELEASE_GATES.md:7-9"
+      ],
+      "findingId": "F02",
+      "initialResult": "CLARIFY",
+      "resolution": {
+        "file": "docs/product/adhd-first/06_RELEASE_RECOMMENDATION.md",
+        "lines": [
+          54
+        ],
+        "detail": "Explicit mapping now distinguishes new Gate1/2 research and Gate3 formal engineering from old v0.2 Gate2 formal engineering."
+      }
+    },
+    {
+      "id": "DR16",
+      "result": "PASS",
+      "question": "README is usable without confusing demo and deployed product",
+      "evidence": [
+        "README:9-17",
+        "06:24",
+        "../../../prototypes/adhd-first/README.md"
+      ],
+      "detail": "Clean-clone install, local start, new/old ports and standalone demo status explicit. 07 and final engineering attachments deferred intentionally."
+    },
+    {
+      "id": "DR17",
+      "result": "PASS",
+      "question": "Research notation can be transcribed unambiguously",
+      "evidence": [
+        "04:41,84,112"
+      ],
+      "findingId": "F03",
+      "initialResult": "CLARIFY",
+      "resolution": {
+        "file": "docs/product/adhd-first/04_EXPERIMENT_AND_INTERVIEW.md",
+        "lines": [
+          43
+        ],
+        "detail": "Explicit instruction distinguishes route S from evidence S and requires full column names."
+      }
+    }
+  ],
+  "findings": [
+    {
+      "id": "F01",
+      "priority": "P2",
+      "status": "RESOLVED",
+      "file": "docs/product/adhd-first/04_EXPERIMENT_AND_INTERVIEW.md",
+      "lines": [
+        33,
+        78,
+        95,
+        96
+      ],
+      "title": "Tiny Start action may occur before the return click",
+      "detail": "End-of-branch script and phase2 question assume first action follows Resume. Tiny Start is intended to let people act during its optional 30 seconds or immediately without a timer. A host following the script literally could wait for completion or miss valid early action, biasing the main measure.",
+      "suggestion": "Start observation from expressed intent. Explicitly allow tAction earlier than timer expiry/tResume; never require waiting or a return click before action. Ask whether/when an action occurred instead of only asking what happened after Resume.",
+      "blocks": "Resolve before real participant sessions; does not block local prototype/source delivery.",
+      "resolution": {
+        "file": "docs/product/adhd-first/04_EXPERIMENT_AND_INTERVIEW.md",
+        "lines": [
+          39,
+          33,
+          80
+        ],
+        "detail": "Phase1 now permits first action during optional assistance and before return click; neutral retrospective wording added. Phase2 asks whether and when action occurred during/after assistance or after return."
+      }
+    },
+    {
+      "id": "F02",
+      "priority": "P3",
+      "status": "RESOLVED",
+      "file": "docs/product/adhd-first/06_RELEASE_RECOMMENDATION.md",
+      "lines": [
+        52,
+        60
+      ],
+      "title": "Old and new Gate2 refer to different decisions",
+      "detail": "Old v0.2 Gate2 means formal integration readiness. New v0.2b Gate2 means real-session probe and Gate3 means formal integration. Historical preservation is correct, but cross-reading both lists could mistake readiness states.",
+      "suggestion": "Add a short mapping: v0.2b Gate0 engineering, Gate1 exploration, Gate2 real-session probe, Gate3 formal integration; old v0.2 Gate2 roughly corresponds to new Gate3.",
+      "resolution": {
+        "file": "docs/product/adhd-first/06_RELEASE_RECOMMENDATION.md",
+        "lines": [
+          54
+        ],
+        "detail": "Explicit mapping now distinguishes new Gate1/2 research and Gate3 formal engineering from old v0.2 Gate2 formal engineering."
+      }
+    },
+    {
+      "id": "F03",
+      "priority": "P3",
+      "status": "RESOLVED",
+      "file": "docs/product/adhd-first/04_EXPERIMENT_AND_INTERVIEW.md",
+      "lines": [
+        41,
+        84,
+        112
+      ],
+      "title": "S denotes both a route and self-report evidence",
+      "detail": "The rotation table uses S for Tiny Spark while the evidence table uses S for self-report. Context disambiguates the document, but manually filling an observation table could create ambiguous shorthand.",
+      "suggestion": "Use SP or route:Spark for the route, or add an explicit instruction to put route and evidence code in separate columns.",
+      "resolution": {
+        "file": "docs/product/adhd-first/04_EXPERIMENT_AND_INTERVIEW.md",
+        "lines": [
+          43
+        ],
+        "detail": "Explicit instruction distinguishes route S from evidence S and requires full column names."
+      }
+    }
+  ],
+  "browserAndEngineeringResults": "NOT REVIEWED: this review does not claim browser tests, runtime accessibility, isolation hashes, remote commit or installed extension verification. Await 07 and final evidence.",
+  "sourceRechecks": [
+    {
+      "url": "https://www.tiimoapp.com/product",
+      "result": "Official page body read; supports visual planning, timers, AI checklist/planner and sync claim; not an efficacy check"
+    },
+    {
+      "url": "https://www.tiimoapp.com/privacy-policy",
+      "result": "Official page body read; supports account/device/IP/usage/analytics categories; no runtime privacy audit"
+    },
+    {
+      "url": "https://goblin.tools/About",
+      "result": "Official page body read; supports small single-task tools and AI-output caution"
+    },
+    {
+      "url": "https://goblin.tools/Privacy",
+      "result": "Official page body read; supports local preferences, model input transfer and Pro server-side state distinction"
+    }
+  ],
+  "inheritedCurrentTurnEvidence": "NIMH/CHADD/FTC and original-study source reading from the same v0.2b work session; no need to refetch unchanged sources. No memory used.",
+  "initialVerdict": "PASS_WITH_RESEARCH_PROTOCOL_CLARIFICATIONS",
+  "reviewRounds": [
+    {
+      "round": 1,
+      "pass": 14,
+      "clarifications": 3
+    },
+    {
+      "round": 2,
+      "pass": 17,
+      "openFindings": 0,
+      "detail": "Parent amended documents; reviewer read the revised timing, mapping and notation wording, including the separately corrected Phase2 action question."
+    }
+  ],
+  "initialFileSnapshots": [
+    {
+      "path": "docs/product/adhd-first/01_POSITIONING.md",
+      "sha256": "d927d8abc3c427bdc5a9976e4735bec1908eb341bfbbf9c926e7a108bfd926a7"
+    },
+    {
+      "path": "docs/product/adhd-first/02_EXECUTIVE_FUNCTION_MAP.md",
+      "sha256": "e80db1bfd1d873e7a1a252ce2b790878faf32de896252393f47e4862591f4ea1"
+    },
+    {
+      "path": "docs/product/adhd-first/03_PRD_V02B.md",
+      "sha256": "3ad4ead7e567a596bde2b39e6d9a6ed73d2d04a787a342f5b0cc1c300675f2c8"
+    },
+    {
+      "path": "docs/product/adhd-first/04_EXPERIMENT_AND_INTERVIEW.md",
+      "sha256": "959cefa4d3355d04beb4c6a7db5bd1b1d81ab472aed31f99aa96efa168c21f51"
+    },
+    {
+      "path": "docs/product/adhd-first/05_DECISIONS_AND_TRADEOFFS.md",
+      "sha256": "d3c76d07aa7b095609fb9706f55506999975b65d2d69929aa3e7ecfe60c51cc3"
+    },
+    {
+      "path": "docs/product/adhd-first/06_RELEASE_RECOMMENDATION.md",
+      "sha256": "f80bc0b4eee34f51308c109b8e5065b9da51ff51b7e6fadf3c9bd01180cc617a"
+    },
+    {
+      "path": "docs/product/adhd-first/README.md",
+      "sha256": "a27339acc4cf17e1f5b242587ad593d37ca986cf5ef9c151baab02c719f4b8bc"
+    }
+  ]
+}

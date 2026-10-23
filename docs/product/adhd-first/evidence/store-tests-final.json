@@ -1,0 +1,271 @@
+{
+  "numTotalTestSuites": 1,
+  "numPassedTestSuites": 1,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 21,
+  "numPassedTests": 21,
+  "numFailedTests": 0,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "snapshot": {
+    "added": 0,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0,
+    "didUpdate": false
+  },
+  "startTime": 1792776814635,
+  "success": true,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "fullName": "queues both windows behind the held lock and preserves each committed preference",
+          "status": "passed",
+          "title": "queues both windows behind the held lock and preserves each committed preference",
+          "duration": 7.38880000000006,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "starts a timed interaction when its queued lock is granted rather than when it was clicked",
+          "status": "passed",
+          "title": "starts a timed interaction when its queued lock is granted rather than when it was clicked",
+          "duration": 1.8570000000000846,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "accepts one of two concurrently submitted forms and retains its exact saved text",
+          "status": "passed",
+          "title": "accepts one of two concurrently submitted forms and retains its exact saved text",
+          "duration": 1.900600000000054,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "grants only one piece to simultaneous clicks carrying the same displayed step",
+          "status": "passed",
+          "title": "grants only one piece to simultaneous clicks carrying the same displayed step",
+          "duration": 0.8074000000000296,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "keeps the prior serialized value when the storage write runs out of quota",
+          "status": "passed",
+          "title": "keeps the prior serialized value when the storage write runs out of quota",
+          "duration": 0.7572000000000116,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "does not replace data or silently initialize over an unavailable storage read",
+          "status": "passed",
+          "title": "does not replace data or silently initialize over an unavailable storage read",
+          "duration": 0.6327999999999747,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "retains unreadable stored content rather than resetting it",
+          "status": "passed",
+          "title": "retains unreadable stored content rather than resetting it",
+          "duration": 0.37019999999995434,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "retains unreadable stored content rather than resetting it",
+          "status": "passed",
+          "title": "retains unreadable stored content rather than resetting it",
+          "duration": 0.27699999999992997,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "rejects an impossible persisted phase/path pair before attempting a write",
+          "status": "passed",
+          "title": "rejects an impossible persisted phase/path pair before attempting a write",
+          "duration": 1.008799999999951,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "requires Web Locks and leaves the saved state intact when locking is unavailable",
+          "status": "passed",
+          "title": "requires Web Locks and leaves the saved state intact when locking is unavailable",
+          "duration": 0.3886999999999716,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "keeps foreign keys and the older Detour prototype through all own-state reset writes",
+          "status": "passed",
+          "title": "keeps foreign keys and the older Detour prototype through all own-state reset writes",
+          "duration": 0.40430000000003474,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "uses the saved deadline after a long absence and does not grant an expired extra piece",
+          "status": "passed",
+          "title": "uses the saved deadline after a long absence and does not grant an expired extra piece",
+          "duration": 0.44619999999997617,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "ignores an earlier session command after a new bounded interaction begins",
+          "status": "passed",
+          "title": "ignores an earlier session command after a new bounded interaction begins",
+          "duration": 0.4551000000000158,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "blocks a stale-window resume after the target becomes archived",
+          "status": "passed",
+          "title": "blocks a stale-window resume after the target becomes archived",
+          "duration": 0.46289999999999054,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "blocks a stale-window resume after the target becomes none",
+          "status": "passed",
+          "title": "blocks a stale-window resume after the target becomes none",
+          "duration": 0.38649999999995543,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "blocks a stale-window resume after the target becomes writing",
+          "status": "passed",
+          "title": "blocks a stale-window resume after the target becomes writing",
+          "duration": 0.3891999999999598,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "retracts an already displayed ready state when its saved target becomes archived",
+          "status": "passed",
+          "title": "retracts an already displayed ready state when its saved target becomes archived",
+          "duration": 0.44849999999996726,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "retracts an already displayed ready state when its saved target becomes none",
+          "status": "passed",
+          "title": "retracts an already displayed ready state when its saved target becomes none",
+          "duration": 0.2685999999999922,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "retracts an already displayed ready state when its saved target becomes writing",
+          "status": "passed",
+          "title": "retracts an already displayed ready state when its saved target becomes writing",
+          "duration": 0.2477000000000089,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "rejects the deleted task version even after selecting the same demo task again",
+          "status": "passed",
+          "title": "rejects the deleted task version even after selecting the same demo task again",
+          "duration": 0.3100000000000591,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "rejects a pre-reset window command instead of reusing the original task version",
+          "status": "passed",
+          "title": "rejects a pre-reset window command instead of reusing the original task version",
+          "duration": 0.2438000000000784,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1792776815596,
+      "endTime": 1792776815615.31,
+      "status": "passed",
+      "message": "",
+      "name": "<repo>/prototypes/adhd-first/tests/store.test.ts"
+    }
+  ]
+}

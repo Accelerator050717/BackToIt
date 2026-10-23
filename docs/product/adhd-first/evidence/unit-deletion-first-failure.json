@@ -1,0 +1,581 @@
+{
+  "numTotalTestSuites": 3,
+  "numPassedTestSuites": 1,
+  "numFailedTestSuites": 2,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 44,
+  "numPassedTests": 43,
+  "numFailedTests": 1,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "snapshot": {
+    "added": 0,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0,
+    "didUpdate": false
+  },
+  "startTime": 1792777014807,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "ADHD-first finite, task-bound re-entry"
+          ],
+          "fullName": "ADHD-first finite, task-bound re-entry starts on the saved task without forcing help, a timer or a diagnosis",
+          "status": "passed",
+          "title": "starts on the saved task without forcing help, a timer or a diagnosis",
+          "duration": 5.368800000000078,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "ADHD-first finite, task-bound re-entry"
+          ],
+          "fullName": "ADHD-first finite, task-bound re-entry suggests only a first saved clause; empty/archived steps get no invented action",
+          "status": "passed",
+          "title": "suggests only a first saved clause; empty/archived steps get no invented action",
+          "duration": 0.3550000000000182,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "ADHD-first finite, task-bound re-entry"
+          ],
+          "fullName": "ADHD-first finite, task-bound re-entry keeps an editable tiny suggestion separate from the original saved task",
+          "status": "passed",
+          "title": "keeps an editable tiny suggestion separate from the original saved task",
+          "duration": 0.4660999999999831,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "ADHD-first finite, task-bound re-entry"
+          ],
+          "fullName": "ADHD-first finite, task-bound re-entry uses 30 seconds only when chosen, and expiry does not mark real work as complete",
+          "status": "passed",
+          "title": "uses 30 seconds only when chosen, and expiry does not mark real work as complete",
+          "duration": 0.35820000000001073,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "ADHD-first finite, task-bound re-entry"
+          ],
+          "fullName": "ADHD-first finite, task-bound re-entry does not start a made-up tiny action when the saved step is missing",
+          "status": "passed",
+          "title": "does not start a made-up tiny action when the saved step is missing",
+          "duration": 0.27289999999993597,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "ADHD-first finite, task-bound re-entry"
+          ],
+          "fullName": "ADHD-first finite, task-bound re-entry places exactly three predictable pieces; duplicate clicks cannot skip a step",
+          "status": "passed",
+          "title": "places exactly three predictable pieces; duplicate clicks cannot skip a step",
+          "duration": 0.4533000000000129,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "ADHD-first finite, task-bound re-entry"
+          ],
+          "fullName": "ADHD-first finite, task-bound re-entry enforces the selected cap without waiting for all pieces or auto-starting again",
+          "status": "passed",
+          "title": "enforces the selected cap without waiting for all pieces or auto-starting again",
+          "duration": 0.26519999999993615,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "ADHD-first finite, task-bound re-entry"
+          ],
+          "fullName": "ADHD-first finite, task-bound re-entry allows leaving the interaction before the cap and turns one extension into quiet time",
+          "status": "passed",
+          "title": "allows leaving the interaction before the cap and turns one extension into quiet time",
+          "duration": 0.2700999999999567,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "ADHD-first finite, task-bound re-entry"
+          ],
+          "fullName": "ADHD-first finite, task-bound re-entry recovers elapsed wall time from a reopened serialized session and bounds clock rollback",
+          "status": "passed",
+          "title": "recovers elapsed wall time from a reopened serialized session and bounds clock rollback",
+          "duration": 0.34780000000000655,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "ADHD-first finite, task-bound re-entry"
+          ],
+          "fullName": "ADHD-first finite, task-bound re-entry changing a future duration does not rewrite the running deadline",
+          "status": "passed",
+          "title": "changing a future duration does not rewrite the running deadline",
+          "duration": 0.27120000000002165,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "ADHD-first finite, task-bound re-entry"
+          ],
+          "fullName": "ADHD-first finite, task-bound re-entry parks or skips one thought without a countdown or a second task",
+          "status": "passed",
+          "title": "parks or skips one thought without a countdown or a second task",
+          "duration": 0.33320000000003347,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "ADHD-first finite, task-bound re-entry"
+          ],
+          "fullName": "ADHD-first finite, task-bound re-entry bounds parked content and retains other entries when deleting one",
+          "status": "passed",
+          "title": "bounds parked content and retains other entries when deleting one",
+          "duration": 1.3684000000000651,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "ADHD-first finite, task-bound re-entry"
+          ],
+          "fullName": "ADHD-first finite, task-bound re-entry cannot resume or accept a tiny action against a changed task until explicitly reviewed",
+          "status": "passed",
+          "title": "cannot resume or accept a tiny action against a changed task until explicitly reviewed",
+          "duration": 0.24069999999983338,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "ADHD-first finite, task-bound re-entry"
+          ],
+          "fullName": "ADHD-first finite, task-bound re-entry does not adopt an archived target for the original session",
+          "status": "passed",
+          "title": "does not adopt an archived target for the original session",
+          "duration": 0.21710000000007312,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "ADHD-first finite, task-bound re-entry"
+          ],
+          "fullName": "ADHD-first finite, task-bound re-entry does not adopt an none target for the original session",
+          "status": "passed",
+          "title": "does not adopt an none target for the original session",
+          "duration": 0.13239999999996144,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "ADHD-first finite, task-bound re-entry"
+          ],
+          "fullName": "ADHD-first finite, task-bound re-entry does not adopt an writing target for the original session",
+          "status": "passed",
+          "title": "does not adopt an writing target for the original session",
+          "duration": 0.09239999999999782,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "ADHD-first finite, task-bound re-entry"
+          ],
+          "fullName": "ADHD-first finite, task-bound re-entry rejects stale direct intents, edits and deleted/recreated task versions",
+          "status": "passed",
+          "title": "rejects stale direct intents, edits and deleted/recreated task versions",
+          "duration": 0.2846999999999298,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "ADHD-first finite, task-bound re-entry"
+          ],
+          "fullName": "ADHD-first finite, task-bound re-entry reopens an archived original only after an explicit version-checked choice",
+          "status": "passed",
+          "title": "reopens an archived original only after an explicit version-checked choice",
+          "duration": 0.2744999999999891,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "ADHD-first finite, task-bound re-entry"
+          ],
+          "fullName": "ADHD-first finite, task-bound re-entry removes a deleted task’s derived tiny action as well as its text snapshot",
+          "status": "failed",
+          "title": "removes a deleted task’s derived tiny action as well as its text snapshot",
+          "duration": 3.8531000000000404,
+          "failureMessages": [
+            "ZodError: [\n  {\n    \"code\": \"custom\",\n    \"message\": \"Invalid tiny action state\",\n    \"path\": []\n  }\n]\n    at reduceState (<repo>/prototypes/adhd-first/src/model.ts:223:53)\n    at act (<repo>/prototypes/adhd-first/tests/model.test.ts:5:63)\n    at <repo>/prototypes/adhd-first/tests/model.test.ts:130:18\n    at file:///<repo>/node_modules/.pnpm/vitest@5.0.3_@types+node@26_6e29ca4c498c73a771a4646543cc3f75/node_modules/vitest/dist/chunks/run.BTlFXlnv.js:1628:35\n    at file:///<repo>/node_modules/.pnpm/vitest@5.0.3_@types+node@26_6e29ca4c498c73a771a4646543cc3f75/node_modules/vitest/dist/chunks/run.BTlFXlnv.js:2783:26\n    at file:///<repo>/node_modules/.pnpm/vitest@5.0.3_@types+node@26_6e29ca4c498c73a771a4646543cc3f75/node_modules/vitest/dist/chunks/run.BTlFXlnv.js:3321:20\n    at new Promise (<anonymous>)\n    at runWithCancel (file:///<repo>/node_modules/.pnpm/vitest@5.0.3_@types+node@26_6e29ca4c498c73a771a4646543cc3f75/node_modules/vitest/dist/chunks/run.BTlFXlnv.js:3316:10)\n    at file:///<repo>/node_modules/.pnpm/vitest@5.0.3_@types+node@26_6e29ca4c498c73a771a4646543cc3f75/node_modules/vitest/dist/chunks/run.BTlFXlnv.js:3301:20\n    at new Promise (<anonymous>)"
+          ],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "ADHD-first finite, task-bound re-entry"
+          ],
+          "fullName": "ADHD-first finite, task-bound re-entry rejects stale session actions and refuses replacing an unfinished round",
+          "status": "passed",
+          "title": "rejects stale session actions and refuses replacing an unfinished round",
+          "duration": 0.2299000000000433,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "ADHD-first finite, task-bound re-entry"
+          ],
+          "fullName": "ADHD-first finite, task-bound re-entry keeps authored text on language changes, respects disabling spark and preserves stopping",
+          "status": "passed",
+          "title": "keeps authored text on language changes, respects disabling spark and preserves stopping",
+          "duration": 0.2802999999998974,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "ADHD-first finite, task-bound re-entry"
+          ],
+          "fullName": "ADHD-first finite, task-bound re-entry makes unavailable targets explicit without inventing a task",
+          "status": "passed",
+          "title": "makes unavailable targets explicit without inventing a task",
+          "duration": 0.10930000000007567,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "ADHD-first finite, task-bound re-entry"
+          ],
+          "fullName": "ADHD-first finite, task-bound re-entry rejects corrupted deadlines, impossible path/phase combinations, unknown fields and oversized data",
+          "status": "passed",
+          "title": "rejects corrupted deadlines, impossible path/phase combinations, unknown fields and oversized data",
+          "duration": 1.0028999999999542,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1792777015863,
+      "endTime": 1792777015880.003,
+      "status": "failed",
+      "message": "",
+      "name": "<repo>/prototypes/adhd-first/tests/model.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "fullName": "queues both windows behind the held lock and preserves each committed preference",
+          "status": "passed",
+          "title": "queues both windows behind the held lock and preserves each committed preference",
+          "duration": 5.739300000000185,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "starts a timed interaction when its queued lock is granted rather than when it was clicked",
+          "status": "passed",
+          "title": "starts a timed interaction when its queued lock is granted rather than when it was clicked",
+          "duration": 1.5343000000000302,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "accepts one of two concurrently submitted forms and retains its exact saved text",
+          "status": "passed",
+          "title": "accepts one of two concurrently submitted forms and retains its exact saved text",
+          "duration": 1.5960000000000036,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "grants only one piece to simultaneous clicks carrying the same displayed step",
+          "status": "passed",
+          "title": "grants only one piece to simultaneous clicks carrying the same displayed step",
+          "duration": 0.6550999999999476,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "keeps the prior serialized value when the storage write runs out of quota",
+          "status": "passed",
+          "title": "keeps the prior serialized value when the storage write runs out of quota",
+          "duration": 0.639699999999948,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "does not replace data or silently initialize over an unavailable storage read",
+          "status": "passed",
+          "title": "does not replace data or silently initialize over an unavailable storage read",
+          "duration": 0.5537999999999101,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "retains unreadable stored content rather than resetting it",
+          "status": "passed",
+          "title": "retains unreadable stored content rather than resetting it",
+          "duration": 0.31799999999998363,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "retains unreadable stored content rather than resetting it",
+          "status": "passed",
+          "title": "retains unreadable stored content rather than resetting it",
+          "duration": 0.23460000000000036,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "rejects an impossible persisted phase/path pair before attempting a write",
+          "status": "passed",
+          "title": "rejects an impossible persisted phase/path pair before attempting a write",
+          "duration": 0.8885000000000218,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "requires Web Locks and leaves the saved state intact when locking is unavailable",
+          "status": "passed",
+          "title": "requires Web Locks and leaves the saved state intact when locking is unavailable",
+          "duration": 0.35209999999983665,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "keeps foreign keys and the older Detour prototype through all own-state reset writes",
+          "status": "passed",
+          "title": "keeps foreign keys and the older Detour prototype through all own-state reset writes",
+          "duration": 0.3768999999999778,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "uses the saved deadline after a long absence and does not grant an expired extra piece",
+          "status": "passed",
+          "title": "uses the saved deadline after a long absence and does not grant an expired extra piece",
+          "duration": 0.4026000000001204,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "ignores an earlier session command after a new bounded interaction begins",
+          "status": "passed",
+          "title": "ignores an earlier session command after a new bounded interaction begins",
+          "duration": 0.42480000000000473,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "blocks a stale-window resume after the target becomes archived",
+          "status": "passed",
+          "title": "blocks a stale-window resume after the target becomes archived",
+          "duration": 0.41460000000006403,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "blocks a stale-window resume after the target becomes none",
+          "status": "passed",
+          "title": "blocks a stale-window resume after the target becomes none",
+          "duration": 0.36979999999994106,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "blocks a stale-window resume after the target becomes writing",
+          "status": "passed",
+          "title": "blocks a stale-window resume after the target becomes writing",
+          "duration": 0.36639999999988504,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "retracts an already displayed ready state when its saved target becomes archived",
+          "status": "passed",
+          "title": "retracts an already displayed ready state when its saved target becomes archived",
+          "duration": 0.39859999999998763,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "retracts an already displayed ready state when its saved target becomes none",
+          "status": "passed",
+          "title": "retracts an already displayed ready state when its saved target becomes none",
+          "duration": 0.2580000000000382,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "retracts an already displayed ready state when its saved target becomes writing",
+          "status": "passed",
+          "title": "retracts an already displayed ready state when its saved target becomes writing",
+          "duration": 0.223700000000008,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "rejects the deleted task version even after selecting the same demo task again",
+          "status": "passed",
+          "title": "rejects the deleted task version even after selecting the same demo task again",
+          "duration": 0.29690000000005057,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "rejects a pre-reset window command instead of reusing the original task version",
+          "status": "passed",
+          "title": "rejects a pre-reset window command instead of reusing the original task version",
+          "duration": 0.25520000000005894,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1792777015903,
+      "endTime": 1792777015919.2969,
+      "status": "passed",
+      "message": "",
+      "name": "<repo>/prototypes/adhd-first/tests/store.test.ts"
+    }
+  ]
+}
