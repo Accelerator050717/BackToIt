@@ -51,3 +51,7 @@ v0.1 已完成任务创建、主动网页/正文捕获、现场草稿与快照�
 ## v0.2 产品发现接续（2026-10-22）
 
 本轮新增 [产品文档索引](product/README.md) 和独立的 `prototypes/detour/` 网页原型。C留白休息、B有限互动、D无内容返回用于比较，正式候选优先C/D，尚无真人访谈或正式发布批准。v0.1核心/schema/权限/.output/ZIP保留；重新运行的105项测试和6条扩展E2E、原型测试及构建隔离证据见 [本轮验收](product/12_DELIVERY_AND_VALIDATION.md)。下一步先做知情同意的小样本比较，再决定是否进入真实扩展工程。
+
+## v0.2b ADHD-first 接续（2026-10-23）
+
+[新一轮索引](product/adhd-first/README.md) 记录ADHD相关启动/切换困难如何转成机制；`prototypes/adhd-first`（4178）新增 Tiny Start、固定三片 Tiny Spark、Quiet Pause、Parking 和直接 Resume。旧 Detour（4174）及原结论保留。主线改为优先验证 Tiny Start，未把新目标伪装成真人发现。实际测试、首次失败修复、SHA隔离和Git审阅分支见[新验收报告](product/adhd-first/07_TEST_AND_SKILLS_REPORT.md)。正式v0.1核心/schema/权限/安装产物不变，main不合并；仍需按两阶段协议研究真实价值。

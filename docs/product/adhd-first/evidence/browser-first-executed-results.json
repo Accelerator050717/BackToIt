@@ -1,0 +1,875 @@
+{
+  "config": {
+    "argv": [
+      "Y:\\node.js\\node.exe",
+      "<repo>\\node_modules\\.pnpm\\@playwright+test@1.63.0\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "<repo>\\prototypes\\adhd-first\\playwright.config.ts"
+    ],
+    "configFile": "<repo>\\prototypes\\adhd-first\\playwright.config.ts",
+    "rootDir": "<repo>/prototypes/adhd-first/browser",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "<repo>/artifacts/adhd-first/browser/results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "<repo>/prototypes/adhd-first/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "<repo>\\artifacts\\adhd-first\\browser/results.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "<repo>\\artifacts\\adhd-first\\browser/report",
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": {
+      "command": "node prototypes/adhd-first/scripts/serve-built.mjs",
+      "cwd": "<repo>\\",
+      "url": "http://127.0.0.1:4178",
+      "reuseExistingServer": false,
+      "timeout": 20000
+    }
+  },
+  "suites": [
+    {
+      "title": "reentry.spec.ts",
+      "file": "reentry.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "direct Resume preserves the saved task and isolates browser data and network",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 897,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T17:40:54.264Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "network-and-page-errors",
+                      "contentType": "application/json",
+                      "body": "ewogICJleHRlcm5hbCI6IFtdLAogICJlcnJvcnMiOiBbXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f68d914462b3fda6e55a-cba1eb308527e123bd43",
+          "file": "reentry.spec.ts",
+          "line": 107,
+          "column": 1
+        },
+        {
+          "title": "Tiny Start edits one local suggestion without changing the saved step or forcing a timer",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 7854,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveValue\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('main').getByLabel('一个最小行动（可以修改）', { exact: true })\nExpected: \u001b[32m\"打开例题 2\"\u001b[39m\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveValue\" getByRole('main').getByLabel('一个最小行动（可以修改）', { exact: true }) with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('main').getByLabel('一个最小行动（可以修改）', { exact: true })\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveValue\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('main').getByLabel('一个最小行动（可以修改）', { exact: true })\nExpected: \u001b[32m\"打开例题 2\"\u001b[39m\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveValue\" getByRole('main').getByLabel('一个最小行动（可以修改）', { exact: true }) with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('main').getByLabel('一个最小行动（可以修改）', { exact: true })\u001b[22m\n\n    at <repo>\\prototypes\\adhd-first\\browser\\reentry.spec.ts:140:23",
+                    "location": {
+                      "file": "<repo>\\prototypes\\adhd-first\\browser\\reentry.spec.ts",
+                      "column": 23,
+                      "line": 140
+                    },
+                    "snippet": "  138 |   await begin(page, 'start');\n  139 |   const input = main(page).getByLabel('一个最小行动（可以修改）', { exact: true });\n> 140 |   await expect(input).toHaveValue('打开例题 2');\n      |                       ^\n  141 |   await expect(main(page).getByText(original, { exact: true })).toBeVisible();\n  142 |   await input.fill('只把笔放到例题 2 旁边。');\n  143 |   await shot(page, '02-tiny-start-editable-420');"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "<repo>\\prototypes\\adhd-first\\browser\\reentry.spec.ts",
+                        "column": 23,
+                        "line": 140
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveValue\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('main').getByLabel('一个最小行动（可以修改）', { exact: true })\nExpected: \u001b[32m\"打开例题 2\"\u001b[39m\nTimeout: 7000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveValue\" getByRole('main').getByLabel('一个最小行动（可以修改）', { exact: true }) with timeout 7000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('main').getByLabel('一个最小行动（可以修改）', { exact: true })\u001b[22m\n\n\n  138 |   await begin(page, 'start');\n  139 |   const input = main(page).getByLabel('一个最小行动（可以修改）', { exact: true });\n> 140 |   await expect(input).toHaveValue('打开例题 2');\n      |                       ^\n  141 |   await expect(main(page).getByText(original, { exact: true })).toBeVisible();\n  142 |   await input.fill('只把笔放到例题 2 旁边。');\n  143 |   await shot(page, '02-tiny-start-editable-420');\n    at <repo>\\prototypes\\adhd-first\\browser\\reentry.spec.ts:140:23"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T17:40:55.397Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "<repo>\\artifacts\\adhd-first\\browser\\results\\reentry-Tiny-Start-edits-o-48200-ved-step-or-forcing-a-timer\\test-failed-1.png"
+                    },
+                    {
+                      "name": "network-and-page-errors",
+                      "contentType": "application/json",
+                      "body": "ewogICJleHRlcm5hbCI6IFtdLAogICJlcnJvcnMiOiBbXQp9"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "<repo>\\artifacts\\adhd-first\\browser\\results\\reentry-Tiny-Start-edits-o-48200-ved-step-or-forcing-a-timer\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "<repo>\\artifacts\\adhd-first\\browser\\results\\reentry-Tiny-Start-edits-o-48200-ved-step-or-forcing-a-timer\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "<repo>\\prototypes\\adhd-first\\browser\\reentry.spec.ts",
+                    "column": 23,
+                    "line": 140
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "f68d914462b3fda6e55a-c0ea57579a5a16454d89",
+          "file": "reentry.spec.ts",
+          "line": 136,
+          "column": 1
+        },
+        {
+          "title": "the optional 30-second attempt expires by timestamp, not by an achievement claim (accelerated clock)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 981,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T17:41:03.744Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "network-and-page-errors",
+                      "contentType": "application/json",
+                      "body": "ewogICJleHRlcm5hbCI6IFtdLAogICJlcnJvcnMiOiBbXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f68d914462b3fda6e55a-28e1f7f622a3d5c23b3e",
+          "file": "reentry.spec.ts",
+          "line": 155,
+          "column": 1
+        },
+        {
+          "title": "the tactile puzzle takes three predictable keyboard actions and rejects duplicate stale clicks",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 950,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T17:41:04.924Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "network-and-page-errors",
+                      "contentType": "application/json",
+                      "body": "ewogICJleHRlcm5hbCI6IFtdLAogICJlcnJvcnMiOiBbXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f68d914462b3fda6e55a-48655b1b62f7d5e4d802",
+          "file": "reentry.spec.ts",
+          "line": 170,
+          "column": 1
+        },
+        {
+          "title": "puzzle early exit and one explicit quiet extension retain the task and permit stopping",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 939,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T17:41:05.880Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "network-and-page-errors",
+                      "contentType": "application/json",
+                      "body": "ewogICJleHRlcm5hbCI6IFtdLAogICJlcnJvcnMiOiBbXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f68d914462b3fda6e55a-5739ff1b059009b4c820",
+          "file": "reentry.spec.ts",
+          "line": 192,
+          "column": 1
+        },
+        {
+          "title": "quiet expiry survives reload and a closed page with no running interval (accelerated clock)",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 1098,
+                  "error": {
+                    "message": "Error: locator.check: Clicking the checkbox did not change its state\nCall log:\n\u001b[2m  - waiting for getByRole('main').getByRole('radio', { name: '90秒', exact: true })\u001b[22m\n\u001b[2m    - locator resolved to <input type=\"radio\" name=\"duration\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n\u001b[2m    - click action done\u001b[22m\n\u001b[2m    - waiting for scheduled navigations to finish\u001b[22m\n\u001b[2m    - navigations have finished\u001b[22m\n",
+                    "stack": "Error: locator.check: Clicking the checkbox did not change its state\nCall log:\n\u001b[2m  - waiting for getByRole('main').getByRole('radio', { name: '90秒', exact: true })\u001b[22m\n\u001b[2m    - locator resolved to <input type=\"radio\" name=\"duration\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n\u001b[2m    - click action done\u001b[22m\n\u001b[2m    - waiting for scheduled navigations to finish\u001b[22m\n\u001b[2m    - navigations have finished\u001b[22m\n\n    at needs (<repo>\\prototypes\\adhd-first\\browser\\reentry.spec.ts:74:77)\n    at begin (<repo>\\prototypes\\adhd-first\\browser\\reentry.spec.ts:77:3)\n    at <repo>\\prototypes\\adhd-first\\browser\\reentry.spec.ts:222:3",
+                    "location": {
+                      "file": "<repo>\\prototypes\\adhd-first\\browser\\reentry.spec.ts",
+                      "column": 77,
+                      "line": 74
+                    },
+                    "snippet": "  72 |   await main(page).getByRole('button', { name: '我卡住了', exact: true }).click();\n  73 |   await expect(main(page).getByRole('heading', { name: '现在需要哪一种帮助？' })).toBeVisible();\n> 74 |   await main(page).getByRole('radio', { name: `${seconds}秒`, exact: true }).check();\n     |                                                                             ^\n  75 | }\n  76 | async function begin(page: Page, path: 'start' | 'spark' | 'quiet', seconds: 45 | 90 | 180 = 90) {\n  77 |   await needs(page, seconds);"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "<repo>\\prototypes\\adhd-first\\browser\\reentry.spec.ts",
+                        "column": 77,
+                        "line": 74
+                      },
+                      "message": "Error: locator.check: Clicking the checkbox did not change its state\nCall log:\n\u001b[2m  - waiting for getByRole('main').getByRole('radio', { name: '90秒', exact: true })\u001b[22m\n\u001b[2m    - locator resolved to <input type=\"radio\" name=\"duration\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n\u001b[2m    - click action done\u001b[22m\n\u001b[2m    - waiting for scheduled navigations to finish\u001b[22m\n\u001b[2m    - navigations have finished\u001b[22m\n\n\n  72 |   await main(page).getByRole('button', { name: '我卡住了', exact: true }).click();\n  73 |   await expect(main(page).getByRole('heading', { name: '现在需要哪一种帮助？' })).toBeVisible();\n> 74 |   await main(page).getByRole('radio', { name: `${seconds}秒`, exact: true }).check();\n     |                                                                             ^\n  75 | }\n  76 | async function begin(page: Page, path: 'start' | 'spark' | 'quiet', seconds: 45 | 90 | 180 = 90) {\n  77 |   await needs(page, seconds);\n    at needs (<repo>\\prototypes\\adhd-first\\browser\\reentry.spec.ts:74:77)\n    at begin (<repo>\\prototypes\\adhd-first\\browser\\reentry.spec.ts:77:3)\n    at <repo>\\prototypes\\adhd-first\\browser\\reentry.spec.ts:222:3"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T17:41:06.825Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "<repo>\\artifacts\\adhd-first\\browser\\results\\reentry-quiet-expiry-survi-be2ab-interval-accelerated-clock-\\test-failed-1.png"
+                    },
+                    {
+                      "name": "network-and-page-errors",
+                      "contentType": "application/json",
+                      "body": "ewogICJleHRlcm5hbCI6IFtdLAogICJlcnJvcnMiOiBbXQp9"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "<repo>\\artifacts\\adhd-first\\browser\\results\\reentry-quiet-expiry-survi-be2ab-interval-accelerated-clock-\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "<repo>\\artifacts\\adhd-first\\browser\\results\\reentry-quiet-expiry-survi-be2ab-interval-accelerated-clock-\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "<repo>\\prototypes\\adhd-first\\browser\\reentry.spec.ts",
+                    "column": 77,
+                    "line": 74
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "f68d914462b3fda6e55a-5dea65ebdb82e0f9c230",
+          "file": "reentry.spec.ts",
+          "line": 212,
+          "column": 1
+        },
+        {
+          "title": "Parking can be empty, caps synthetic thoughts at twelve, and allows explicit deletion",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1180,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T17:41:08.545Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "network-and-page-errors",
+                      "contentType": "application/json",
+                      "body": "ewogICJleHRlcm5hbCI6IFtdLAogICJlcnJvcnMiOiBbXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f68d914462b3fda6e55a-0d7e41385d0d34f9bf18",
+          "file": "reentry.spec.ts",
+          "line": 234,
+          "column": 1
+        },
+        {
+          "title": "a second window changes the bound task: direct return refuses stale text until explicit review",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "timedOut",
+                  "duration": 30190,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "<repo>\\prototypes\\adhd-first\\browser\\reentry.spec.ts",
+                        "column": 54,
+                        "line": 96
+                      },
+                      "message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('dialog').getByLabel('保存的下一步', { exact: true })\u001b[22m\n\n\n  94 |   await expect(main(page).getByRole('heading', { name: heading })).toBeVisible();\n  95 | }\n> 96 | async function homeFromReturn(page: Page) {\n     |                                            ^\n  97 |   await main(page).getByRole('button', { name: '接着做', exact: true }).click();\n  98 |   await expect(main(page).getByRole('heading', { name: '接回这个任务' })).toBeVisible();\n  99 |   await main(page).getByRole('button', { name: '回到任务卡', exact: true }).click();\n    at editSample (<repo>\\prototypes\\adhd-first\\browser\\reentry.spec.ts:96:54)\n    at <repo>\\prototypes\\adhd-first\\browser\\reentry.spec.ts:274:3"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T17:41:09.932Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "<repo>\\artifacts\\adhd-first\\browser\\results\\reentry-a-second-window-ch-99aa3--text-until-explicit-review\\test-failed-2.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "<repo>\\artifacts\\adhd-first\\browser\\results\\reentry-a-second-window-ch-99aa3--text-until-explicit-review\\test-failed-1.png"
+                    },
+                    {
+                      "name": "network-and-page-errors",
+                      "contentType": "application/json",
+                      "body": "ewogICJleHRlcm5hbCI6IFtdLAogICJlcnJvcnMiOiBbXQp9"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "<repo>\\artifacts\\adhd-first\\browser\\results\\reentry-a-second-window-ch-99aa3--text-until-explicit-review\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "<repo>\\artifacts\\adhd-first\\browser\\results\\reentry-a-second-window-ch-99aa3--text-until-explicit-review\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "f68d914462b3fda6e55a-b272652de07354dd8a96",
+          "file": "reentry.spec.ts",
+          "line": 267,
+          "column": 1
+        },
+        {
+          "title": "archive, deletion and replacing the selected task in another window cannot restore a wrong target",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2663,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T17:41:40.758Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "network-and-page-errors",
+                      "contentType": "application/json",
+                      "body": "ewogICJleHRlcm5hbCI6IFtdLAogICJlcnJvcnMiOiBbXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f68d914462b3fda6e55a-0909d036ee6f07bf30a8",
+          "file": "reentry.spec.ts",
+          "line": 290,
+          "column": 1
+        },
+        {
+          "title": "a stale editor keeps its dirty draft and never overwrites a second window’s saved content",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "timedOut",
+                  "duration": 30166,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "<repo>\\prototypes\\adhd-first\\browser\\reentry.spec.ts",
+                        "column": 54,
+                        "line": 326
+                      },
+                      "message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('dialog').getByLabel('保存的下一步', { exact: true })\u001b[22m\n\n\n  324 |   page,\n  325 |   context,\n> 326 | }) => {\n      |        ^\n  327 |   await open(page);\n  328 |   const other = await context.newPage();\n  329 |   await open(other);\n    at <repo>\\prototypes\\adhd-first\\browser\\reentry.spec.ts:326:54"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T17:41:43.649Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "<repo>\\artifacts\\adhd-first\\browser\\results\\reentry-a-stale-editor-kee-dc64b-cond-window’s-saved-content\\test-failed-1.png"
+                    },
+                    {
+                      "name": "network-and-page-errors",
+                      "contentType": "application/json",
+                      "body": "ewogICJleHRlcm5hbCI6IFtdLAogICJlcnJvcnMiOiBbXQp9"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "<repo>\\artifacts\\adhd-first\\browser\\results\\reentry-a-stale-editor-kee-dc64b-cond-window’s-saved-content\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "<repo>\\artifacts\\adhd-first\\browser\\results\\reentry-a-stale-editor-kee-dc64b-cond-window’s-saved-content\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "f68d914462b3fda6e55a-067d4042c59d4bd632a1",
+          "file": "reentry.spec.ts",
+          "line": 320,
+          "column": 1
+        },
+        {
+          "title": "corrupted storage is retained until a confirmed reset that changes only this prototype key",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 870,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T17:42:14.380Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "network-and-page-errors",
+                      "contentType": "application/json",
+                      "body": "ewogICJleHRlcm5hbCI6IFtdLAogICJlcnJvcnMiOiBbXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f68d914462b3fda6e55a-5167c2161fa95f3cc616",
+          "file": "reentry.spec.ts",
+          "line": 341,
+          "column": 1
+        },
+        {
+          "title": "quota failure does not claim success, change persisted state or lose a typed tiny action",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "timedOut",
+                  "duration": 30114,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "<repo>\\prototypes\\adhd-first\\browser\\reentry.spec.ts",
+                        "column": 15,
+                        "line": 367
+                      },
+                      "message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('main').getByLabel('一个最小行动（可以修改）', { exact: true })\u001b[22m\n\n\n  365 |   await dialog.getByLabel('保存的下一步', { exact: true }).fill('尚未提交的合成旧草稿。');\n  366 |   const other = await context.newPage();\n> 367 |   await open(other);\n      |               ^\n  368 |   await editSample(other, '另一窗口确实保存的新合成内容。');\n  369 |   await expect(dialog.getByLabel('保存的下一步', { exact: true })).toHaveValue('尚未提交的合成旧草稿。');\n  370 |   await dialog.getByRole('button', { name: '保存样例', exact: true }).click();\n    at <repo>\\prototypes\\adhd-first\\browser\\reentry.spec.ts:367:15"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T17:42:15.486Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "<repo>\\artifacts\\adhd-first\\browser\\results\\reentry-quota-failure-does-d50f7-or-lose-a-typed-tiny-action\\test-failed-1.png"
+                    },
+                    {
+                      "name": "network-and-page-errors",
+                      "contentType": "application/json",
+                      "body": "ewogICJleHRlcm5hbCI6IFtdLAogICJlcnJvcnMiOiBbXQp9"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "<repo>\\artifacts\\adhd-first\\browser\\results\\reentry-quota-failure-does-d50f7-or-lose-a-typed-tiny-action\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "<repo>\\artifacts\\adhd-first\\browser\\results\\reentry-quota-failure-does-d50f7-or-lose-a-typed-tiny-action\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "f68d914462b3fda6e55a-451ec2359bd60bb36047",
+          "file": "reentry.spec.ts",
+          "line": 363,
+          "column": 1
+        },
+        {
+          "title": "missing next step, English, reduced motion, disabled puzzle and dialog keyboard access remain honest",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 1077,
+                  "error": {
+                    "message": "Error: locator.uncheck: Clicking the checkbox did not change its state\nCall log:\n\u001b[2m  - waiting for getByRole('checkbox', { name: '显示小拼接入口', exact: true })\u001b[22m\n\u001b[2m    - locator resolved to <input checked type=\"checkbox\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n\u001b[2m    - click action done\u001b[22m\n\u001b[2m    - waiting for scheduled navigations to finish\u001b[22m\n\u001b[2m    - navigations have finished\u001b[22m\n",
+                    "stack": "Error: locator.uncheck: Clicking the checkbox did not change its state\nCall log:\n\u001b[2m  - waiting for getByRole('checkbox', { name: '显示小拼接入口', exact: true })\u001b[22m\n\u001b[2m    - locator resolved to <input checked type=\"checkbox\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n\u001b[2m    - click action done\u001b[22m\n\u001b[2m    - waiting for scheduled navigations to finish\u001b[22m\n\u001b[2m    - navigations have finished\u001b[22m\n\n    at <repo>\\prototypes\\adhd-first\\browser\\reentry.spec.ts:399:70",
+                    "location": {
+                      "file": "<repo>\\prototypes\\adhd-first\\browser\\reentry.spec.ts",
+                      "column": 70,
+                      "line": 399
+                    },
+                    "snippet": "  397 |   page.once('dialog', (dialog) => dialog.accept());\n  398 |   await main(page).getByRole('button', { name: 'Reset this prototype', exact: true }).click();\n> 399 |   await expect(main(page).getByRole('heading', { name: '从这一小步接回来' })).toBeVisible();\n      |                                                                      ^\n  400 |   const values = await page.evaluate(\n  401 |     ({ prior, unrelated }) => ({\n  402 |       prior: localStorage.getItem(prior),"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "<repo>\\prototypes\\adhd-first\\browser\\reentry.spec.ts",
+                        "column": 70,
+                        "line": 399
+                      },
+                      "message": "Error: locator.uncheck: Clicking the checkbox did not change its state\nCall log:\n\u001b[2m  - waiting for getByRole('checkbox', { name: '显示小拼接入口', exact: true })\u001b[22m\n\u001b[2m    - locator resolved to <input checked type=\"checkbox\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n\u001b[2m    - click action done\u001b[22m\n\u001b[2m    - waiting for scheduled navigations to finish\u001b[22m\n\u001b[2m    - navigations have finished\u001b[22m\n\n\n  397 |   page.once('dialog', (dialog) => dialog.accept());\n  398 |   await main(page).getByRole('button', { name: 'Reset this prototype', exact: true }).click();\n> 399 |   await expect(main(page).getByRole('heading', { name: '从这一小步接回来' })).toBeVisible();\n      |                                                                      ^\n  400 |   const values = await page.evaluate(\n  401 |     ({ prior, unrelated }) => ({\n  402 |       prior: localStorage.getItem(prior),\n    at <repo>\\prototypes\\adhd-first\\browser\\reentry.spec.ts:399:70"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T17:42:46.130Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "<repo>\\artifacts\\adhd-first\\browser\\results\\reentry-missing-next-step--d59b6-yboard-access-remain-honest\\test-failed-1.png"
+                    },
+                    {
+                      "name": "network-and-page-errors",
+                      "contentType": "application/json",
+                      "body": "ewogICJleHRlcm5hbCI6IFtdLAogICJlcnJvcnMiOiBbXQp9"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "<repo>\\artifacts\\adhd-first\\browser\\results\\reentry-missing-next-step--d59b6-yboard-access-remain-honest\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "<repo>\\artifacts\\adhd-first\\browser\\results\\reentry-missing-next-step--d59b6-yboard-access-remain-honest\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "<repo>\\prototypes\\adhd-first\\browser\\reentry.spec.ts",
+                    "column": 70,
+                    "line": 399
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "f68d914462b3fda6e55a-753d8526b09669b60835",
+          "file": "reentry.spec.ts",
+          "line": 384,
+          "column": 1
+        },
+        {
+          "title": "six requested viewports and 200 percent CSS layout zoom retain actions without horizontal overflow",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1512,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-23T17:42:48.002Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "network-and-page-errors",
+                      "contentType": "application/json",
+                      "body": "ewogICJleHRlcm5hbCI6IFtdLAogICJlcnJvcnMiOiBbXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f68d914462b3fda6e55a-1e4d292ba05ddefffc14",
+          "file": "reentry.spec.ts",
+          "line": 457,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-23T17:40:53.708Z",
+    "duration": 116754.79800000001,
+    "expected": 8,
+    "skipped": 0,
+    "unexpected": 6,
+    "flaky": 0
+  }
+}

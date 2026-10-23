@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-23",
+  "branch": "research/adhd-first-v02b",
+  "baseline": "776e2486f9ec2404f13e41cd04d70614e02d0763",
+  "scannedIndexedFiles": 248,
+  "changedFiles": 84,
+  "totalBytes": 4866026,
+  "deniedPaths": [],
+  "credentialPatternFindings": [],
+  "personalPathFindings": [],
+  "oversizedFiles": [],
+  "brokenMarkdownLinks": [],
+  "protectedFilesCompared": 99,
+  "changedProtectedFiles": [],
+  "missingRequiredSourceFiles": [],
+  "unexpectedChangedScope": [],
+  "notes": "Exact staged blobs scanned, not only worktree. Seven high-confidence credential families plus local-path and explicit file-scope checks. Synthetic URL/password fixtures reviewed; this is not a guarantee that every possible secret format is detectable. No user task data, profiles or runtime copied."
+}

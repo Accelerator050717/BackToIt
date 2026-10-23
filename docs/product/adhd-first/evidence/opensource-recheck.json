@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-23",
+  "method": "Connected GitHub read-only metadata and pinned-file reads. Existing v0.2 isolated runtime observations are historical, not rerun in this pass.",
+  "repositories": [
+    {
+      "repo": "aminehabchi/NeuroFlow",
+      "metadata": "public, unarchived, main default branch at observation; latest code head not asserted",
+      "ref": "b6043dd8b56f2a4a77ffbcf547fb7633ca6ebc68",
+      "license": "MIT",
+      "licenseBlob": "b2fa7715b7275d3b258b88e9564a542c2f60eec2",
+      "licenseUrl": "https://github.com/aminehabchi/NeuroFlow/blob/b6043dd8b56f2a4a77ffbcf547fb7633ca6ebc68/LICENSE",
+      "read": "js/list.js lines 1-80",
+      "codeBlob": "f4507ddeb23641822b8946fe3f2d791cba95875f",
+      "observation": "URL-keyed todos and localStorage load/save; save errors are logged. Our prototype instead rejects failed writes and serializes commands; no competitor code copied."
+    },
+    {
+      "repo": "cmarathe1/resettle-microbreak-extension",
+      "metadata": "public, unarchived, main default branch at observation; latest code head not asserted",
+      "ref": "029a9089c7a7fc6933ddaaf63fa90284ca135347",
+      "license": "MIT",
+      "licenseBlob": "ef1c8df8cbfdcb32aa8ee480e0c7a069c38c64a9",
+      "licenseUrl": "https://github.com/cmarathe1/resettle-microbreak-extension/blob/029a9089c7a7fc6933ddaaf63fa90284ca135347/LICENSE",
+      "read": "src/engines/microbreak-engine.ts lines 1-100",
+      "codeBlob": "adb56c507deb671cf854be1fb6de96373ce32488",
+      "observation": "Finite prewritten breathing/eye/posture scripts for 30/60/90 seconds. Our quiet pause does not require a breathing rhythm or copy instructions; these durations are not clinical evidence."
+    }
+  ],
+  "otherProjects": "The five-project v0.2 audit remains the pinned historical comparison. Tiimo and Goblin Tools official product/privacy page comparison is newly read and recorded in 01_POSITIONING.md; no account or paid feature used.",
+  "reuse": "No competitor code, figures, package installs, or remote scripts used. New island SVG and state model are project-authored."
+}
